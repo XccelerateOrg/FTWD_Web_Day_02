@@ -2,3 +2,89 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+header img {
+    margin: 10px 0 10px 20px;
+}
+
+.cover-wrapper {
+    position: relative;
+}
+
+.image {
+    width: 100%;
+}
+
+.cover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    color: white;
+    ;
+}
+
+.cover-text h3 {
+    display: inline-block;
+    background-color: yellowgreen;
+    border-radius: 3em;
+    padding: 10px;
+    margin: 20px 0;
+    color: white;
+}
+
+.main-wrapper {
+    background-color: rgb(196, 224, 140);
+    padding: 5rem 0;
+}
+
+.main-first-row, .main-second-row {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 1.5rem 0;
+}
+
+.main-icon {
+    width: 70px;
+    margin-right: 1rem;
+}
+
+
+.flexbox {
+    width: 300px;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+
+.text {
+    margin: auto;
+}
+
+.text p {
+    display: inline;
+}
+
+@media all and (max-width: 600px) {
+    .cover-text {
+        position: absolute;
+        top: 37.5%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        text-align: center;
+        color: white;
+        ;
+    }
+
+    .main-first-row, .main-second-row {
+        flex-flow: column;
+        margin: 0;
+    }
+
+    .flexbox {
+        margin: 0.5rem auto;
+    }
+}
