@@ -69,4 +69,7 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
+Flex box is more friendly. 
+I need to look into more about @media, mobile Broswer is tricky
+
 (Fill whatever you would like here!)
