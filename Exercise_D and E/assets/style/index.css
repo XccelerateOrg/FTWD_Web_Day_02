@@ -2,3 +2,106 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+/* nav */
+.navContainer{
+    background-color: #fff;
+    display: block;
+}
+
+#logo{
+    padding-left: 3vw;
+}
+
+/* jumbotron */
+.jumbotronContainer{
+    background-image: url("./flowershop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vw;
+    width: 100%;
+
+}
+
+.overlay{
+    background-color: rgb(0, 0, 0,0.7);
+    overflow: hidden;
+    width: 100vw;
+    height:100%;
+    z-index: 2;
+}
+
+.jumboTextContainer{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    top: -50%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    background: transparent;
+    z-index: 3;
+}
+
+.jumboTextButton{
+    background-color: #7ab621;
+    width: 150px;
+    font-size: 24px;
+    padding: 7px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+
+/* services */
+.servicesContainer{
+    background-color: #c7d39b;
+    padding: 40px 50px 40px 50px;
+}
+
+.servicesIcons{
+    display: inline-block;
+    width: 14vw;
+    padding: 20px 10px 10px 10px;
+}
+.servicesIconContainer{
+    display: inline-block;
+}
+
+.servicesDiv{
+    padding-bottom: 25px;;
+}
+
+.servicesText{
+    display: inline-block;
+    text-align: center;
+    padding: 30px 50px 50px 0;
+} 
+
+@media(max-width: 800px){
+
+    .jumboTextContainer{
+        font-size: 0.5em;
+        top:-60%;
+    }
+
+    .jumboText{
+        font-size: 1.5rem;
+    }
+
+    .jumboTextButton{
+        font-size: 1rem;
+        width: 20vw;
+        padding: 7px;
+        border-radius: 40px;
+        text-align: center;
+    }
+
+    .servicesText{
+        font-size: 0.9em;
+        line-height: 1;
+        padding: 1.3em;
+    }
+
+}
