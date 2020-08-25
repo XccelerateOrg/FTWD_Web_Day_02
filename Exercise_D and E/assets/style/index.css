@@ -65,7 +65,7 @@ You can style tags, classes (.) or ids (#) from this file.
 }
 
 .flower {
-  width: 30rem;
+  width: 25rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,7 +73,7 @@ You can style tags, classes (.) or ids (#) from this file.
 }
 
 .cash {
-  width: 30rem;
+  width: 25rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,7 +81,7 @@ You can style tags, classes (.) or ids (#) from this file.
 }
 
 .tele {
-  width: 30rem;
+  width: 25rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -89,7 +89,7 @@ You can style tags, classes (.) or ids (#) from this file.
 }
 
 .car {
-  width: 30rem;
+  width: 25rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,6 +107,7 @@ p {
 
 @media screen and (max-width: 575.98px) {
   .title {
+    padding: 0px;
   }
 
   .bottom {
@@ -115,22 +116,27 @@ p {
 
   .flower {
     padding: 30px 0px;
+    width: 20rem;
   }
 
   .call {
     padding: 30px 0px;
+    width: 20rem;
   }
 
   .tele {
     padding: 30px 0px;
+    width: 20rem;
   }
 
   .car {
     padding: 30px 0px;
+    width: 20rem;
   }
 
   .bottom_cell {
     flex-direction: column;
     padding: 0px 0px;
+    width: 100%;
   }
 }
