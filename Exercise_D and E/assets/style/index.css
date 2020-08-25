@@ -2,3 +2,176 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+@media only screen and (max-width: 400px){
+    #logo {
+        height: 45px;
+    }
+    #banner {
+        display: flex;
+        justify-content: center;
+        height: 45px;
+    }
+    #b_flowers {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+
+}
+
+
+
+#banner{
+    height: 60px;
+    background-color: white;
+}
+
+
+
+#cover {
+    height: 700px;
+    background-image: url(../images/flowershop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+#dark_layer {
+    background-color: rgba(0, 0, 0, 0.473);
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#b_flowers {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#button {
+    background-color: rgb(126, 211, 33);
+    border-radius: 30px;
+    padding: 5px;
+}
+
+
+
+#learn_more{
+    font-size: 30px;
+    margin-bottom: 0%;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+#section_three{
+    background-color: rgb(206, 231, 180);
+    height: 100%;
+    
+}
+
+
+#image_section{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.check_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5%;
+}
+
+
+
+
+.check {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    padding: 5%;
+}
+
+
+
+.check_img {
+    height: 100px;
+    width: 100px;
+}
+
+.check_text{
+    padding-left: 10%;
+    text-align: center;
+}
+
+
+
+

@@ -70,3 +70,16 @@ Method Two:
 ## What is one thing that I learned from doing this project? :books:
 
 (Fill whatever you would like here!)
+
+I learned how to use @media tag, and change the viewpoint between mobile and computer. This will help develop my sites for mobile use in the future.
+
+
+
+
+
+
+
+
+
+
+
