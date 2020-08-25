@@ -2,3 +2,74 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+/********* GENERAL ********/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/********* HEADER ********/
+
+.logo {
+    background-color: rgb(228, 233, 178);
+}
+
+/********* MAIN ********/
+
+.main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0,0,0,0.65)), url(../images/flowershop.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    border-radius: 200px;
+    color: #fff;
+    font-weight: 700;
+    background-color: rgb(60, 231, 60);
+    font-size: 110%;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: gold;
+}
+
+/********* FEATURE ********/
+
+.feature {
+    background-color: rgb(228, 233, 178);
+    text-align: center;
+    padding-top: 60px;
+    display:flex;
+}
+
+.feature p {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 120%;
+}
+
+
+.icon {
+    margin: 40px;
+    width: 100px;
+    
+}
+
+
+
