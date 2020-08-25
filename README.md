@@ -69,4 +69,4 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
-I have implemented the mobile view @media query and experimented with the grid systems on Bootstrap!
+I have implemented the mobile view @media query and experimented with the grid systems on Bootstrap!!!
