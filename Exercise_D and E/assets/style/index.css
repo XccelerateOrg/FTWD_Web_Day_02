@@ -1,4 +1,40 @@
-/* 
-This css sheet is linked to practice.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+.con{
+    display: flex;
+}
+
+#c1 {
+    height: 10vh;
+}
+
+#logo {
+    object-fit: contain;
+}
+
+#c2 {
+    background-image: url("../images/flowershop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 60vh;
+    width: 100%;
+    justify-content: center;
+}
+
+#c2-1 {
+    margin: auto;
+    font-size: 3em;
+    color: white;
+}
+
+#c3 {
+    height: 15vh;
+    background-color: #87e874;
+    justify-content: space-evenly;
+}
+
+#c4 {
+    height: 15vh;
+    background-color: #87e874;
+    justify-content: space-evenly;
+}
+
+

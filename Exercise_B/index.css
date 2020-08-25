@@ -1,4 +1,20 @@
-/* 
-This css sheet is linked to index.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+    margin: auto;
+}
+
+#green {
+    background-color: green;
+    top: 0;
+    right: 0;
+    position: fixed;
+}
