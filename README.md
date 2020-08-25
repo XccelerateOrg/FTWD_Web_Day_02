@@ -70,3 +70,6 @@ Method Two:
 ## What is one thing that I learned from doing this project? :books:
 
 (Fill whatever you would like here!)
+
+For this project, I have learned to go online and look for reference of what I need to do. 
+In the process I learned about flex box and how to efficiently use them to center my divs.

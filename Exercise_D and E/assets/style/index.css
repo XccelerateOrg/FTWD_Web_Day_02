@@ -2,3 +2,69 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+
+.beautifulflower{
+    height: 600px;
+    background-image: linear-gradient(#4444447c, #4444447c), url(../images/flowershop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.logo{
+    padding: 2px;
+    background-color: #ffffff;
+}
+
+div.centertext{
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+div.centertext h1{
+    padding-bottom: 20px;
+}
+
+div.infocontainer1, div.infocontainer2{
+    background-color: #c9e6a9; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div.info{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding-top: 25px;
+    flex-wrap: nowrap;
+}
+
+div.txt{
+    width:150;
+    height: 150;
+    display: inline-block;
+    padding: 10px;
+}
+
+a{
+    color: #ffffff;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 2em;
+    background-color: #72d106;
+}
+a:link{
+    color: #ffffff;
+}
+
+a:hover{
+    color: #ffffff;
+}
