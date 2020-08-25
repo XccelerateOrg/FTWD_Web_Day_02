@@ -1,4 +1,22 @@
-/* 
-This css sheet is linked to practice.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+.top{
+    height: 70px;
+}
+.middle{
+    height: 700px;
+    background-image: url("/code/FTWD_Web_Day_02/Exercise_D and E/assets/images/flowershop.jpg");
+    background-repeat: no-repeat;
+    background-color: rgb(70, 70, 70);
+    background-blend-mode: multiply;
+    position: relative;
+}
+.middleText{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 45%;
+}
+.middleButton{
+    position: relative;
+    top: 55%;
+}
