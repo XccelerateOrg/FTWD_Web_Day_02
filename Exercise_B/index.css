@@ -2,3 +2,26 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+.blue {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.green {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+
+.red {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+}

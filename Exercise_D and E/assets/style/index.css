@@ -2,3 +2,135 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/flowershop.jpg);
+  min-height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: yellowgreen;
+  color: white;
+  font-size: 30px;
+  border-radius: 30px;
+  padding: 2px 10px;
+  border: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom {
+  background-color: #c1fba4;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom_cell {
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flower {
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cash {
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.tele {
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.car {
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+p {
+  padding: 0px 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+/******************************************************/
+
+/* resize*/
+
+@media screen and (max-width: 575.98px) {
+  .title {
+  }
+
+  .bottom {
+    height: 100vh;
+  }
+
+  .flower {
+    padding: 30px 0px;
+  }
+
+  .call {
+    padding: 30px 0px;
+  }
+
+  .tele {
+    padding: 30px 0px;
+  }
+
+  .car {
+    padding: 30px 0px;
+  }
+
+  .bottom_cell {
+    flex-direction: column;
+    padding: 0px 0px;
+  }
+}
