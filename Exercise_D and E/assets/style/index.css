@@ -2,3 +2,78 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+.logoHeader {
+    padding: 10px;
+}
+
+.flowerShop {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.63)), url(../images/flowershop.jpg);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#beautifulFlowers {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#learnMore {
+    border-radius: 70px;
+    background-color: rgb(181, 207, 30);
+    color: white;
+    width: 180px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Feature {
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    margin: 40px;
+    width: 100px;
+}
+
+.shopFeaturesTop {
+    display: flex;
+    background-color: rgb(173, 231, 163);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.shopFeaturesBottom {
+    display: flex;
+    background-color: rgb(173, 231, 163);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+
+.Feature {
+    padding-right: 40px;
+}
+
+.flowerShop {
+    height: 400px;
+}
+
+}
