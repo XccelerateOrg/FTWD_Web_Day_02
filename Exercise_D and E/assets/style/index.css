@@ -1,4 +1,60 @@
-/* 
-This css sheet is linked to practice.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+html,body{
+    margin:0;
+    padding:0;
+  }
+/* hero */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/flowershop.jpg');
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+}
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero .container p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 7vh;
+    line-height: 1.6;
+}
+#button {
+    padding: 2vh 4vw;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 3vh;
+    background-color: #267e2a;
+    /* outline: none; */
+}
+
+/* feature */
+.feature {
+    background-color: #a7cab1;
+}
+.feature .container .row .col p {
+    font-size: 2rem;
+    margin-bottom: 0px;
+    color: #474748;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.feature .row {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.feature .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
