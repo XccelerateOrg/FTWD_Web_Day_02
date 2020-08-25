@@ -68,5 +68,6 @@ Method Two:
   - [ ] Go slow. Do one thing at a time. You got this :muscle:
 
 ## What is one thing that I learned from doing this project? :books:
-
+- Revised basic Gridterminologies and float concepts
+- How to make a pill-shaped button
 (Fill whatever you would like here!)
