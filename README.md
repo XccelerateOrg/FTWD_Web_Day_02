@@ -69,4 +69,8 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here!)
+Familiarized myself in using flex and in-line elements to position tags in html and css. 
+
+Implementing the Box Model to guide the planning and designing of the frontend of a site is a game-changer!
+
+@media to be further explored.

@@ -2,3 +2,89 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+.header {
+    z-index: 99;
+    margin: 8px 20px;
+}
+
+.hero {
+    height: 720px;
+    display: block;
+}
+
+#hero-bg {
+    background-image: url("../images/flowershop.jpg");
+    height: 720px;
+    z-index: 1;
+}
+
+#overlay {
+    width: 100%;
+    height: 720px;
+    margin-top: 76px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    z-index: 5;
+    background: #000000;
+}
+
+#hero-content {
+    z-index: 20;
+    color: white;
+    position: absolute;
+    display: block;
+    height: auto;
+    width: 50%;
+    text-align: center;
+    transform: translate(50%,-360%);
+}
+
+#hero-title {
+    margin-bottom: 22px;
+}
+
+.button {
+    background-color: rgb(81, 247, 48);
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 6px 8px;
+    text-decoration: none;
+    margin-top: 18px;
+}
+
+
+/* Main Content */
+
+.main-content {
+    background-color: rgb(184, 226, 171);
+    height: auto;
+    padding: 80px 160px 10px 160px;
+    display: flex;
+}
+
+.column-2 {
+    width:50%;
+    display:flex;
+    height: 128px;
+}
+
+.col-2-icon {
+    width: 35%;
+    height: 128px;
+}
+
+.col-2-caption {
+    width: 65%;
+    height: 128px;
+}
+
+p {
+    padding: 20px 32px;
+    font-size: 24px;
+    color: rgb(109, 109, 109);
+}
