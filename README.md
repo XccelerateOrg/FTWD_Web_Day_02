@@ -68,5 +68,6 @@ Method Two:
   - [ ] Go slow. Do one thing at a time. You got this :muscle:
 
 ## What is one thing that I learned from doing this project? :books:
+1. Flexbox property, how each property and value affect the whole layout
 
 (Fill whatever you would like here!)

@@ -2,3 +2,71 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+nav {
+  background-color: white;
+}
+
+.header {
+  background-image: url(../images/flowershop.jpg);
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* opacity: 1; */
+  position: relative;
+}
+
+.header h1 {
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.header h3 {
+  width: 20vw;
+  color: white;
+  background-color: rgb(4, 219, 4);
+  text-align: center;
+  margin: 3vh auto;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.header::after{
+    content: "";
+    width: 100vw;
+    height: 60vh;
+    background: black;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+
+.header:hover::after{
+  opacity: 0.5;
+}
+
+.functions{
+    background-color: rgb(193, 248, 193);
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    padding: 3%;
+}
+
+.function{
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+@media (max-width: 800px){
+    .functions{
+        flex-wrap: wrap;
+    }
+}
