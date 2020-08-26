@@ -6,6 +6,7 @@
     height: 700px;
     background-image: url("/code/FTWD_Web_Day_02/Exercise_D and E/assets/images/flowershop.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     background-color: rgb(70, 70, 70);
     background-blend-mode: multiply;
     position: relative;
@@ -59,4 +60,10 @@
     color: black;
     text-align: center;
     
+}
+
+@media(min-width:400px) {
+    .bottomDivs{
+        padding: 50px;
+    }
 }
