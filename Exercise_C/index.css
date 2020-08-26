@@ -2,3 +2,37 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+.main {
+    display: flex;
+    height: 200px;
+}
+
+.blue {
+    height: 100px;
+    width: 100px;
+    margin-left: 400px;
+    background-color: blue;
+    display: inline-block;
+    align-items: flex-start;
+}
+
+.red {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin-left: 100px;
+    padding-top:100px;
+    display: inline-block;
+    bottom: 0;
+    top: 100px;
+    margin-top: 100px;
+    align-items: flex-end;
+}
+
+.green {
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    background-color: green;
+    display: inline-block;
+}
