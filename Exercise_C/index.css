@@ -2,3 +2,37 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+/* 
+This css sheet is linked to index.html
+You can style tags, classes (.) or ids (#) from this file.
+*/
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background: red;
+    align-self: flex-end;
+}
+
+.flex {
+    display: flex;
+    align-items: flex start;
+    justify-content: space-between;
+  }
+
+.flex1 {
+    display: flex;
+    justify-content: center;
+  }
+
+
+.green {
+    background: green;
+}

@@ -2,3 +2,57 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+.section {
+    background-color: white;
+    width: 100%;
+    float: left;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+#blue {
+    background-color: blue;
+    width: 100px;
+   height: 100px;
+    float: left;
+}
+.box1 {
+    width: 100px;
+    height: 100px;
+}
+
+#red {
+    background-color: red;
+    width: 100px;
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+
+}
+
+#green {
+    background: green;
+    width: 100px;
+   height: 100px;
+   float: right;
+}
+
+.parent {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+  
+.center {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
