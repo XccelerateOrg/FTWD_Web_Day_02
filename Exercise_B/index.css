@@ -2,3 +2,33 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+.container {
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+}
+
+.bluebox {
+    float:left;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.redbox {
+    float: left;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 250px;
+}
+
+.greenbox {
+    float: right;
+    display: inline;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
