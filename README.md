@@ -69,4 +69,4 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here!)
+Got to play around a lot more with flex boxes, which deffo helped. The froggy game was a really good way to practice them.

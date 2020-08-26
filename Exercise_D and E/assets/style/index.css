@@ -1,5 +1,6 @@
 .top{
-    height: 70px;
+    height: 60px;
+    padding-left: 20px;
 }
 .middle{
     height: 700px;
@@ -8,15 +9,54 @@
     background-color: rgb(70, 70, 70);
     background-blend-mode: multiply;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
 }
 .middleText{
     color: white;
     font-size: 50px;
     text-align: center;
-    position: relative;
-    top: 45%;
 }
 .middleButton{
-    position: relative;
-    top: 55%;
+    color: white;
+    font-size: 25px;
+    height: 50px;
+    width: 160px;
+    border: none;
+    background-color: yellowgreen;
+    border-radius: 20px;
+}
+.bottom{
+    background-color: rgba(158, 255, 47, 0.534);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottomicons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 600px;
+    padding-top: 40px;   
+}
+.bottomDivs{
+    width: 40%;
+    height: 150px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.bottomText{
+    padding-left: 20px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    
 }
