@@ -2,3 +2,33 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 1%;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+
+.green{
+    background-color: green;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 1000px;
+    position: relative;
+}
+
+
