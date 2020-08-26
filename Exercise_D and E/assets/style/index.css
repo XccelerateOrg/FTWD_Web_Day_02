@@ -2,3 +2,83 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+/* Additional Stuff
+* {
+    font: 
+}
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-header {
+    background-color: white;
+    padding: 5px;
+    height: 75px;
+}
+
+.hero {
+    background-image: url("../images/flowershop.jpg");
+    background-color: rgba(0, 0, 0, .4);
+    background-blend-mode: multiply;
+    height: 65vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    z-index: 5;
+    font-family: sans-serif;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.slogan {
+    color: white;
+    font-size: 45px;
+}
+
+.heading button {
+    color: #ffffff;
+    font-size: 20px;
+    height: 50px;
+    width: 170px;
+    border: none;
+    background: #7ed321;
+    border-radius: 22px;
+}
+
+.container-details {
+    background-color: rgba(136, 233, 119, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.container-details-content {
+    width: 40%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-details-content img {
+    height: 80%;
+  }
+
+  .container-details-content span {
+    width: 50%;
+    padding-left: 10%;
+}
