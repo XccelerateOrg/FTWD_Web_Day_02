@@ -35,25 +35,25 @@ Method Two:
 
 ## Exercises Due
 
-- [ ] Exercise A: Create and link two pages (index.html and about.html)
+- [X] Exercise A: Create and link two pages (index.html and about.html)
 
-  - [ ] index.html, through an image, links to about.html document
-  - [ ] about.html has a link that opens the users mail system, to send an email
+  - [X] index.html, through an image, links to about.html document
+  - [X] about.html has a link that opens the users mail system, to send an email
 
-- [ ] Exercise B: Floating Three Divs, recreate the image below using HTML and CSS, use css float.
+- [X] Exercise B: Floating Three Divs, recreate the image below using HTML and CSS, use css float.
 
   ![floatExercise](assets/floatExercise.png)
 
-* [ ] Exercise C: Flex Box Three Divs, recreate the image from the last exercise, use HTML and CSS, use css flex
+* [X] Exercise C: Flex Box Three Divs, recreate the image from the last exercise, use HTML and CSS, use css flex
 
-* [ ] Exercise D: Flowerbox VI - recreate the site using HTML and CSS, refer to the image below
+* [X] Exercise D: Flowerbox VI - recreate the site using HTML and CSS, refer to the image below
 
   ![flowerShop](assets/flowerShop.png)
 
-- [ ] Finish the 'What is one thing that I learned from doing this project?' in the readme
+- [X] Finish the 'What is one thing that I learned from doing this project?' in the readme
 - Bonus
 
-- [ ] Exercise E: Flowerbox VII: Add @media queries such that your page is styled appropriately for mobiles, change your CSS file.
+- [X] Exercise E: Flowerbox VII: Add @media queries such that your page is styled appropriately for mobiles, change your CSS file.
 
 ### Tips :tipping_hand_woman:
 
@@ -68,5 +68,7 @@ Method Two:
   - [ ] Go slow. Do one thing at a time. You got this :muscle:
 
 ## What is one thing that I learned from doing this project? :books:
+
+Positioning is hard.
 
 (Fill whatever you would like here!)
