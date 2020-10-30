@@ -52,8 +52,6 @@ Method Two:
 
 - [ ] Finish the 'What is one thing that I learned from doing this project?' in the readme
 
- - What I learnt: How to optimise the code with multiple class, and how to make classes reuse as much as possible.
-
 - Bonus
 
 - [ ] Exercise E: Flowerbox VII: Add @media queries such that your page is styled appropriately for mobiles, change your CSS file.
@@ -73,3 +71,5 @@ Method Two:
 ## What is one thing that I learned from doing this project? :books:
 
 (Fill whatever you would like here!)
+
+ - What I learnt: How to optimise the code with multiple class, and how to make classes reuse as much as possible.
