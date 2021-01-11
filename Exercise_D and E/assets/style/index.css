@@ -2,3 +2,60 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+.logo{
+    width: 100%;
+    height: auto;
+}
+
+.beautifulFlowers{
+    background-image:  linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(https://i.imgur.com/D8euy2u.jpg);
+    height: 720px;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.heading{
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.learnMore{
+    border-radius: 20px;
+    background-color: rgb(110, 206,26);
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 5px 15px;
+}
+
+.info{
+    background-color: rgb(196, 228,165);
+    height: 350px;
+    width: auto;
+}
+
+.col-6{
+margin-top: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+span{
+    color:rgb(87, 99, 77);
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.info img{
+    height: auto;
+    width: 100px;
+    float: left;
+}

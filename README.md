@@ -68,5 +68,6 @@ Method Two:
   - [ ] Go slow. Do one thing at a time. You got this :muscle:
 
 ## What is one thing that I learned from doing this project? :books:
+Practice makes perfect and Google is the biggest source of learning platform. There are so many problems I could encounter when I write a website, especially on the styling part. The only way to get used to writing a website is definitely keep practising using different methods to arrive a same result and also google for different answers. From learning how different people come up with a solution, it certainly helps broaden my knowledge on HTML and CSS. Also, the more you try, the quicker you can finish.
 
 (Fill whatever you would like here!)
