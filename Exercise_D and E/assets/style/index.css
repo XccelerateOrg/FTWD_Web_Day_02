@@ -2,3 +2,166 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+#header {
+    display: inline-block;
+    background-color: white;
+    margin: 10px;
+}
+#mainpic {
+    display: flex;
+}
+#mainpic img {
+    width: 100%;
+    filter: brightness(50%);
+    position: relative;
+}
+#mainpic h1 {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#mainpic button {
+    background-color: rgb(125, 189, 30);
+    color: white;
+    font-size: 30px;
+    border-radius: 30px;
+    border-style: none;
+    outline-style: none;
+    padding: 5px;
+    margin-top: 20px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#content {
+    background-color: rgb(207, 238, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content li {
+    display: inline-flex;
+    align-items: center;
+    width: 450px;
+    margin: 100px;
+    padding-left: 50px;
+}
+#content img {
+    width: 150px;
+}
+#content p {
+    color: grey;
+    font-size: 25px;
+    padding-left: 40px;
+}
+
+@media only screen and (max-width: 1280px) {
+    #mainpic h1 {
+        font-size: 45px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #mainpic button {
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #content li {
+        margin: 50px;
+        padding-left: 20px;
+    }
+    #content img {
+        width: 100px;
+    }
+    #content p {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    #content li {
+        margin: 30px;
+    }
+    #content img {
+        width: 60px;
+    }
+    #content p {
+        font-size: 20px;
+    }
+    #content li {
+        margin: 30px;
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    #mainpic h1 {
+        font-size: 40px;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #mainpic button {
+        font-size: 25px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #content li {
+        padding-left: 10px;
+        width: 500px;
+    }
+    #content img {
+        width: 100px;
+    }
+    #content p {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #mainpic h1 {
+        font-size: 30px;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #mainpic button {
+        font-size: 15px;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #content li {
+        padding-left: 10px;
+        width: 70%;
+    }
+    #content img {
+        width: 80px;
+    }
+    #content p {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    #content li {
+        padding-left: 10px;
+        width: 70%;
+    }
+    #content img {
+        width: 60px;
+    }
+    #content p {
+        font-size: 20px;
+    }
+}
