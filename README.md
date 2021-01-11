@@ -69,4 +69,5 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here!)
+Flexbox. Have nearly no knowledge before today.
+Float & Position: Relative. Also not used previously.
