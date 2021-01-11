@@ -70,3 +70,5 @@ Method Two:
 ## What is one thing that I learned from doing this project? :books:
 
 (Fill whatever you would like here!)
+I learnt more about positioning by using float and flexbox. Also understand more about
+media queries. However, I'm not sure about the width of different screens which may cause the result of the display doesn't look like what I expected.
