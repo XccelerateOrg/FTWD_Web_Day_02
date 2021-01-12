@@ -1,4 +1,72 @@
-/* 
+/*
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+* {
+    margin: 0;
+    flex-direction: column;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+  }
+
+body {
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.button {
+    background-color: #48d64d;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.container {
+    background-color: #000000;
+    position: relative;
+    min-width: 500px;
+}
+
+.container img {
+    opacity: 0.3;
+    width: 100%;
+}
+
+.titleflowers {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18pt;
+    color: white;
+    text-align: center;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template: 150px / auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #bde9a8;
+    padding:100px;
+  }
+  
+.grid-container > div {
+    text-align: center;
+    padding: 30px 0;
+  }
+
+.item3, .item5 {
+    margin-left: 50px;
+}
+
+.item2, .item4, .item6, .item8 {
+    margin-top: 20px;
+}
