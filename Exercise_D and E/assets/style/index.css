@@ -2,3 +2,201 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 480px) {
+    #call-to-action {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 35%;
+        left: 6%;
+        z-index: 1;
+        min-width: 90vw;
+    }
+
+
+    #call-to-action h1 {
+        color:white;
+        font-size:2em;
+        text-shadow: 1px 1px 1px #000000;
+        letter-spacing: 0.8px;
+        text-align: center;
+    }
+
+    #call-to-action button {
+        margin-top: 2.4vh;
+        width: 130px;
+        background-color: #93d62f;
+        color:white;
+        font-size:1.36em;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 30px;
+        padding: 0.2em 0.2em 0.2em 0.2em;
+    }
+
+    nav {
+        height: 7vh;
+        z-index: 1;
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav #logo {
+        max-height: 6vh;
+        margin-top: 0.5vh;
+        margin-left: 2.5vh;
+    }
+
+    main {
+        height: 53vh;
+        background-image: url("../images/flowershop.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+
+    #main-overlay {
+        position: absolute;
+        height: 53vh;
+        width: 100vw;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.66);
+        z-index: 0;
+    }
+
+    footer {
+        height: 40vh;
+        width: 100%;
+        z-index: 1;
+        background-color: #cee7b4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #icon-container {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .icon {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .icon img {
+        max-height: 50px;
+        max-width: 50px;
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 481px) {
+    #call-to-action {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 45%;
+        left: 45%;
+        margin-top: -50px;
+        margin-left: -100px;
+        z-index: 1;
+        max-width: 60vw;
+    }
+
+
+    #call-to-action h1 {
+        color:white;
+        font-size:2em;
+        text-shadow: 1px 1px 1px #000000;
+        letter-spacing: 0.8px;
+        text-align: center;
+    }
+
+    #call-to-action button {
+        margin-top: 2.4vh;
+        width: 130px;
+        background-color: #93d62f;
+        color:white;
+        font-size:1.36em;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 30px;
+        padding: 0.2em 0.2em 0.2em 0.2em;
+    }
+
+    nav {
+        height: 7vh;
+        z-index: 1;
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav #logo {
+        max-height: 6vh;
+        margin-top: 0.5vh;
+        margin-left: 2.5vh;
+    }
+
+    main {
+        height: 58vh;
+        background-image: url("../images/flowershop.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+
+    #main-overlay {
+        position: absolute;
+        height: 58vh;
+        width: 100vw;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.66);
+        z-index: 0;
+    }
+
+    footer {
+        height: 35vh;
+        width: 100%;
+        z-index: 1;
+        background-color: #cee7b4;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #icon-container {
+        display: grid;
+        width: 80%;
+        height: 80%;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto; 
+        column-gap: 10px;
+        row-gap: 15px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .icon {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .icon img {
+        max-height: 50px;
+        max-width: 50px;
+        margin-right: 20px;
+    }
+}
