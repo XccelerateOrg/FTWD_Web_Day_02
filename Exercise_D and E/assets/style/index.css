@@ -10,12 +10,11 @@ You can style tags, classes (.) or ids (#) from this file.
 .beautifulFlowers{
     background-image:  linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(https://i.imgur.com/D8euy2u.jpg);
     height: 720px;
-    width: 1280px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 .heading{
@@ -39,6 +38,9 @@ You can style tags, classes (.) or ids (#) from this file.
     background-color: rgb(196, 228,165);
     height: 350px;
     width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .col-6{
@@ -50,7 +52,7 @@ justify-content: center;
 
 span{
     color:rgb(87, 99, 77);
-    font-size: 20px;
+    font-size: 25px;
     padding-left: 30px;
 }
 
@@ -58,4 +60,8 @@ span{
     height: auto;
     width: 100px;
     float: left;
+}
+
+.caption{
+    text-align: center;
 }
