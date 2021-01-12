@@ -2,6 +2,7 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
 .logo{
     width: 100%;
     height: auto;
@@ -25,6 +26,14 @@ You can style tags, classes (.) or ids (#) from this file.
     letter-spacing: 2px;
 }
 
+@media (max-width:768px){
+    .heading{
+color:#fff222;
+font-size: 40px;
+font-weight: 200;
+}
+}
+
 .learnMore{
     border-radius: 20px;
     background-color: rgb(110, 206,26);
@@ -33,6 +42,15 @@ You can style tags, classes (.) or ids (#) from this file.
     font-weight: 500;
     padding: 5px 15px;
 }
+
+@media (max-width:768px){
+    .learnMore{
+font-size: 20px;
+font-weight: 300;
+border-radius: 10px;
+}
+}
+
 
 .info{
     background-color: rgb(196, 228,165);
