@@ -51,7 +51,7 @@ Method Two:
   ![flowerShop](assets/flowerShop.png)
 
 - [ ] Finish the 'What is one thing that I learned from doing this project?' in the readme
-- Bonus
+- Bonus:
 
 - [ ] Exercise E: Flowerbox VII: Add @media queries such that your page is styled appropriately for mobiles, change your CSS file.
 
@@ -68,5 +68,4 @@ Method Two:
   - [ ] Go slow. Do one thing at a time. You got this :muscle:
 
 ## What is one thing that I learned from doing this project? :books:
-
-(Fill whatever you would like here!)
+I applied everything I've learnt so far in regards to HTML and CSS, and put to practice the art of Googling. Using a mockup/visual as source for my HTML/CSS was a very fun exercise, but made me realize how messy and inefficient my writing still is.
