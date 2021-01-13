@@ -1,4 +1,89 @@
-/* 
-This css sheet is linked to practice.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+* {
+    margin: 0;
+    flex-direction: column;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+  }
+  
+  body {
+    background-color: rgb(184, 218, 155);;
+  }
+  
+  nav {
+    background-color: white;
+  }
+  
+  .stall-container {
+      position: relative;
+  }
+  
+  .stall-container p {
+    font-size: 60px;
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    
+  }
+  
+  
+  .stall-back {
+  
+    background-color: black;
+  }
+  
+  #flowers {
+    width: 100%;
+    opacity: 0.5;
+  }
+  
+  button {
+    background-color: greenyellow;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 32px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 55px;
+  }
+  
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 80px 60px;
+    padding-top: 45px;
+    background-color: rgb(184, 218, 155);
+    z-index: 100;
+  }
+  
+  .parent p {
+    font-size: 25px;
+    color: black;
+    font-weight: lighter;
+    vertical-align: middle;
+    display: inline-block;
+    float: none;
+    margin-bottom: 100px;
+  }
+  
+  .parent img {
+    justify-content: center;
+    align-content: center;
+    margin-left: 150px;
+    display: inline-block;
+    float: none;
+  }
+  
