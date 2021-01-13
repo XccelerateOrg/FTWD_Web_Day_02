@@ -58,6 +58,7 @@ html {
         background-image: url("../images/flowershop.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center center;
         z-index: -1;
     }
 
@@ -155,6 +156,7 @@ html {
         background-image: url("../images/flowershop.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center center;
         z-index: -1;
     }
 
