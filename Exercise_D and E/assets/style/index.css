@@ -18,21 +18,32 @@ body{
 .logo{
     margin-left:20px;
 }
-
 /* big image section */
 .top-container{
-    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/flowershop.jpg');
+    background-position: center center ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 720px;
+
 }
 
-.photo{
-    width:100%;
-    filter: brightness(40%);
+.overlay{
+    position: absolute;
+    background-color: black;
+    opacity:50%;
+    height:720px;
+    width: 100%;
+    z-index: 1;
 }
+
 
 .website-title{
-    position:absolute;
-    top:60%;
-    left:35%;
+    z-index: 2;
     color:white;
     font-size: 3.5em;
     letter-spacing: 3px;
@@ -40,9 +51,8 @@ body{
 }
 
 .learnmore-btn{
-    position:absolute;
-    top: 73%;
-    left: 43%;
+    z-index: 2;
+    margin-top:20px;
     border-radius: 30px;
     height: 60px;
     width: 200px;
@@ -53,7 +63,6 @@ body{
     padding: 5px;
     border-style:none;
 }
-
 /* service section */
 
 .bottom-container{
@@ -78,50 +87,25 @@ body{
 
 /* Responsiveness */
 
-@media (max-width: 960px) {
+@media (max-width: 720px) {
     .bottom-container{
         display:flex;
         flex-direction: column;
     }
-    .topbar{
-        text-align:center;
-        }
-    .website-title{
-        transform: scale(.8);
-        top:30%;
-        left:30%;
-        transition:smooth;
-    }
-        .learnmore-btn{
-            transform:scale(.8);
-            top:45%;
-            left:45%;
 
-        }
-
-    } 
-
-
-@media(max-width: 672px){
-    .bottom-container{
-        display:flex;
-        flex-direction: column;
+    .services{
+        transform: scale(0.7);
     }
     .topbar{
         text-align:center;
         }
-    .website-title{
-        transform: scale(.7);
-        top:20%;
-        left:20%;
-        transition:smooth;
+  
+     .website-title{
+         transform: scale(0.7);
+         white-space: nowrap;
+     }
+     .learnmore-btn{
+         transform:scale(0.7);
+     }
     }
-        .learnmore-btn{
-            transform:scale(.7);
-            top:40%;
-            left:40%;
 
-        }
-
-    } 
-    
