@@ -6,20 +6,19 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 200px;
 }
-.blue {
+.box {
     width: 100px;
     height: 100px;
+}
+.blue {
     background-color: blue;
 }
 .red {
-    width: 100px;
-    height: 100px;
     background-color: red;
-    margin-top: 100px;
+    align-self: flex-end;
 }
 .green {
-    width: 100px;
-    height: 100px;
     background-color: green;
 }

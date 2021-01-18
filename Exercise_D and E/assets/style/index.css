@@ -25,7 +25,7 @@ You can style tags, classes (.) or ids (#) from this file.
 }
 #mainpic button {
     background-color: rgb(125, 189, 30);
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     border-radius: 30px;
     border-style: none;
@@ -54,7 +54,7 @@ You can style tags, classes (.) or ids (#) from this file.
     width: 150px;
 }
 #content p {
-    color: grey;
+    color: rgb(128, 128, 128);
     font-size: 25px;
     padding-left: 40px;
 }
