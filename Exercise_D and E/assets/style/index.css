@@ -2,3 +2,77 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+.tophead {
+  color: rgb(192, 208, 223);
+  background-image: url(../images/flowershop.jpg);
+  height: 70vh;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* .wrapper {
+  color: rgb(230, 223, 223);
+  height: 500px;
+  width: 1300px;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+} */
+
+/* .logo {
+  text-align: center;
+  margin-left: 500px;
+} */
+
+.flower {
+  height: 500px;
+  width: 30px;
+}
+
+/* .logo {
+  /* display: inline; 
+  font-family: arial;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(245, 227, 234);
+  text-align: center;
+  font-style: italic;
+  /* padding: 50px 300px 30px 300px; 
+} */
+
+.wrapper button {
+  color: white;
+  font-size: 30px;
+  height: 50px;
+  width: 170px;
+  border: none;
+  background-color: green;
+  border-radius: 20px;
+}
+
+
+#bottomicons {
+  background-color: #cee7b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0px 50px 0px;
+}
+
+
+.littlebut {
+  width: 40%;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learnbut {
+  margin-left: 90px;
+}

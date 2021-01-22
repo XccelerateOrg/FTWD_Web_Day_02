@@ -2,3 +2,35 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+.inlinebox {
+  display: flex;
+  /* position: relative;
+    display: inline; */
+}
+
+#box1 {
+  float: left;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(55, 22, 175);
+  margin: 10px;
+}
+
+#box2 {
+  /* float: left; */
+  /* border: solid black 2px; */
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  clear: both;
+  margin: 100px auto;
+}
+
+#box3 {
+  float: right;
+  width: 80px;
+  height: 80px;
+  background-color: green;
+  margin: 10px;
+}
