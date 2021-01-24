@@ -2,3 +2,25 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+
+
+.box1, .box2, .box3{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    float: left;
+}
+.box1 {
+    background-color: blue;
+
+}
+.box2 {
+    background-color:red;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.box3 {
+    background-color:green;
+    margin-left: 50px;
+} 

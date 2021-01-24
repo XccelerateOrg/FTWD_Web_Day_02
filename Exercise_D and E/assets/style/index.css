@@ -2,3 +2,65 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    height: 80px;
+}
+
+.cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.8;
+    flex-direction: row;
+    position: relative;
+}
+
+.cover img{
+    opacity: 0.3;
+    height:520px; 
+    width:100%;  
+}
+.back {
+    position: absolute;
+    top:50%;
+    left: 40%;
+}
+.back h3{
+    font-weight: bold;
+    color: white;
+}
+
+.back button{
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+.Bigbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.box{
+    background-color: #cee7b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    padding: 50px 0px
+}
+
+.box img{
+    width:80px;
+    height: 80px;
+}
+.box p {
+    width: 50%;
+    padding-left: 10px;
+}
