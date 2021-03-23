@@ -2,3 +2,108 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+}
+
+#logo {
+    margin: 4px;
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/flowershop.jpg');
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+}
+
+.promotion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+
+h1 {
+    color: white;
+}
+
+.mask {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 60vh;
+    opacity: 0.5;
+}
+
+button {
+    border-radius: 50px;
+    border-style: none;
+    height: 1.5rem;
+    width: 6rem;
+    color: white;
+    background-color: green;
+}
+
+.grid-container {
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 60%;
+}
+
+.icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0.5rem;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+@media (max-width: 450px) {
+    .grid-container {
+        display: flex;
+        height: auto;
+        flex-direction: column;
+    }
+    .grid {
+        display: grid;
+        width: 90%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .item {
+        margin: 0 2.5rem;
+    }
+}

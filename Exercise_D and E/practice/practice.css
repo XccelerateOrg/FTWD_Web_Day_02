@@ -1,0 +1,39 @@
+body {
+    margin: none;
+    padding: none;
+}
+
+
+.back {
+    background-color: #ccffbd;
+}
+
+.container {
+  display: flex;
+  background-image: url('./assets/images/flowershop.jpg');
+  background-size:cover;
+  width: 100vw;
+  height: 60vh;
+
+}
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.button{
+    background-color: #16c79a;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    margin: 30px;
+}
