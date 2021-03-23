@@ -13,7 +13,7 @@
 
 ### How it works :open_book:
 
-- [ ] Clone this repository, open the files and fill them out according to the directions
+- [x] Clone this repository, open the files and fill them out according to the directions
 
 Method one:
 
@@ -35,12 +35,12 @@ Method Two:
 
 ## Exercises Due
 
-- [ ] Exercise A: Create and link two pages (index.html and about.html)
+- [x] Exercise A: Create and link two pages (index.html and about.html)
 
-  - [ ] index.html, through an image, links to about.html document
-  - [ ] about.html has a link that opens the users mail system, to send an email
+  - [x] index.html, through an image, links to about.html document
+  - [x] about.html has a link that opens the users mail system, to send an email
 
-- [ ] Exercise B: Floating Three Divs, recreate the image below using HTML and CSS, use css float.
+- [x] Exercise B: Floating Three Divs, recreate the image below using HTML and CSS, use css float.
 
   ![floatExercise](assets/floatExercise.png)
 
