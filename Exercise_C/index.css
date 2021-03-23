@@ -2,3 +2,38 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+/* 
+This css sheet is linked to index.html
+You can style tags, classes (.) or ids (#) from this file.
+*/
+
+.parent {
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+}
+
+
+.item:nth-child(1) {
+  background: blue;
+}
+
+.item:nth-child(2) {
+  align-self: flex-end;
+  background: red;
+}
+
+.item:nth-child(3) {
+  background: green;
+}
+
+
+  
+  

@@ -2,3 +2,87 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+html {
+  background-color: lightgreen;
+}
+
+/* div {
+  border: 1px solid red;
+} */
+
+p {
+  font-size: 2rem;
+}
+
+.header__logo {
+    height: 60px;
+    width: 200px;
+    float: left;
+    background-image: url(../images/logo.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #00000080, #00000080), url(../images/flowershop.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    height: 720px;
+  }
+
+#hero h2 {
+    font-size: 39.5px;
+    line-height: 1.1;
+    font-weight: 400;
+    letter-spacing: -1px;
+  }
+
+.greenButton {
+    background-color: #4CAF50;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+}
+
+#subhero {
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+#features {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.row1, .row2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin-top: 3rem; */
+  /* margin-bottom: 3rem; */
+}
+
+.box1, .box2, .box3, .box4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+  width: 30rem;
+} 
+
+
+
+
+.icon {
+  margin-right: 3rem;
+}

@@ -69,4 +69,5 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here!)
+I learnt that it is important to maintain one's composure during the project. At one point, I started panicing because I couldn't figure out the problem.
+So I decided to take a break and calm down. When I came back to work, I was able to solve the problem much more effectively after I regained my composure.
