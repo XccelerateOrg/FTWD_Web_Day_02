@@ -41,24 +41,23 @@ body{
     height: 500px;
     width: 100%;
     align-items: center;
-    justify-content: center;
     background-color: rgba(198, 219, 159, 0.815);
     padding: 100px 100px;
 }
 .row1{
-    flex: auto;
+    flex-basis: 100%;
     display: flex;
     
 }
 .row2{
-    flex: auto;
+    flex-basis: 100%;
     display: flex;
     
 }
 .box{
     flex: auto;
     
-    width: fit-content;
+    text-align: center;
     padding-left: 20px;
 }
 .boxImg{
