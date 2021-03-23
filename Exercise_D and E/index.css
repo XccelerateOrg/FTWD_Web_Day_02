@@ -1,0 +1,73 @@
+.header{
+    padding: 10px;
+}
+.headertitle{
+    font-size: 3em;
+    color:#393939;
+    vertical-align: middle;
+}
+.bannerbg{
+    background-color: black;
+    height: 561px;
+}
+.banner{
+    background-image: url("../images/flower-office-shop-arrangement.jpg");
+    height: 561px;
+    opacity: .4;
+}
+.bannertext{
+    position: relative;
+    top: -21rem;
+    margin: auto;
+}
+.bannertitle{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+.bannerbtn{
+    border-radius: 18px;
+    background-color: #7ed321;
+    padding: 15px;
+    width: 160px;
+    text-align: center;
+    margin: 10px auto;
+}
+.bannerbtntext{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.bannerbtntext:hover{
+    color: white;
+}
+.contentarea{
+    background-color: #cee7b4;
+    padding: 50px;
+}
+.contentrow{
+    margin: auto;
+    width: 1200px;
+}
+.contentboximg{
+    display:inline-block;
+    padding: 20px;
+    width: 170px;
+}
+.contentbox{
+    display:inline-block;
+    color:#393939;
+    font-size: 1em;
+    padding: 20px;
+    width: 300px;
+}
+.contentboxdiv{
+    display:inline-block;
+    width: 100px;
+}
+@media screen and (max-width: 768px) {
+    .contentboxdiv{
+        display:block;
+    }
+}
