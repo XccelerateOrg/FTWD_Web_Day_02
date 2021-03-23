@@ -2,3 +2,79 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header img{
+    height: 50px;
+    padding-left: 20px;
+}
+.main_cont{
+    height: 650px;
+    text-align: center;
+    background-size: contain;
+    background:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),  url(../images/flowershop.jpg);
+}
+.main_cont h1{
+    padding-top: 250px;
+    color: white;
+    display: block;
+    padding-bottom: 30px;
+}
+.butn{
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    width: 160px;
+    padding: 8px 5px;
+    background-color: yellowgreen;
+    margin: auto;
+    color: white;
+    border-radius: 30px;
+}
+.down_cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(198, 219, 159, 0.815);
+    padding: 100px 100px;
+}
+.row1{
+    flex: auto;
+    display: flex;
+    
+}
+.row2{
+    flex: auto;
+    display: flex;
+    
+}
+.box{
+    flex: auto;
+    
+    width: fit-content;
+    padding-left: 20px;
+}
+.boxImg{
+    display: inline-block;
+}
+.boxWord{
+    display: inline-block;
+    font-size: 20px;
+}
+.boxImg img{
+    width: 90px;
+    height: 90px;
+}
+.boxWord{
+    
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+}
