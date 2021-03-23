@@ -2,3 +2,92 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+
+.navBar {
+    width: 100%;
+    height: 60px;
+}
+
+.banner {
+    background-image: url(../images/flowershop.jpg);
+    background-blend-mode: multiply; /* merge 2 background */
+    background-color: rgba(0, 0, 0, 0.612); /* 0.6 transparent */
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.content {
+    /* set to middle */
+    text-align: center;
+    position: relative;
+    top: 55%;
+    /* set to middle */
+
+    color: white;
+}
+
+
+
+.content button {
+    border-radius: 50px;
+    background-color: rgb(29, 147, 29);
+    border: none;
+    color: #FFFFFF;
+    font-size: 28px;
+    /* padding: 0px; */
+    width: 150px;
+    /* transition: all 0.5s; */
+    cursor: pointer;
+    margin: 30px;
+}
+
+/* section 2 */
+
+.allInfo {
+    background-color: lightgreen;
+    padding: 100px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.allInfo p{
+    color: black;
+}
+
+
+
+.info {
+    display: flex;
+    border: 40px solid transparent; /* make some space */
+}
+
+@media (max-width: 769px) {
+    .allInfo .info {
+        background-color: lightgreen;
+        padding: 0px;
+        margin: 0px;
+        width: 5px;
+        height: auto;
+        display:inline-block
+    }
+
+    .allInfo .info img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .allInfo .info p {
+        font-size: 15px;
+    }
+
+    .info {
+        display: flex;
+        border: 1px solid transparent;
+    }
+}

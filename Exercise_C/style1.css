@@ -1,0 +1,31 @@
+/* 
+This css sheet is linked to index.html
+You can style tags, classes (.) or ids (#) from this file.
+*/
+
+
+.container-1, .container-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-2 {
+    justify-content: center;
+}
+
+.blue, .red, .green {
+    height: 100px;
+    width: 100px;   
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
