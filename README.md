@@ -70,3 +70,14 @@ Method Two:
 ## What is one thing that I learned from doing this project? :books:
 
 (Fill whatever you would like here!)
+
+learned a little more using CSS, for instance how to center objects
+when using display:flex within CSS.e.g when using display flex create another
+input called justify-content: center: This helped aligning things easier.
+
+Discovered an alternate way to create an overlay by using background-blend-mode:multiply;
+Then set background color. e.g.
+background-color: coral;
+
+would like to make more websites to improve my skills and knowledge, such as using flex and grid. 
+knowing more about good layout and avoid mistakes.

@@ -2,3 +2,36 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+/* 
+This css sheet is linked to index.html
+You can style tags, classes (.) or ids (#) from this file.
+*/
+
+
+
+.allBoxes {
+    
+   display: flex;
+   justify-content: space-between;
+    }
+    
+    .blueBox {
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+            
+        }
+          
+    .greenBox {
+        background-color: green;
+            width: 200px;
+            height: 200px;
+            bottom: 200px;
+        }
+    
+    .redBox {
+        background-color: red;
+            margin: 200px;
+            width: 200px;
+            height: 200px;
+        }
