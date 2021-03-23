@@ -1,4 +1,138 @@
-/* 
-This css sheet is linked to practice.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+}
+
+.head {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.sec1 {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/flowershop.jpg);
+    background-blend-mode: multiply;
+    background-color: grey;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1con, .buttoncon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+button {
+    background-color: rgb(0, 226, 0);
+    font-size: 1rem;
+    color: white;
+    width: 8rem;
+    border-radius: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.sec2 {
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(221, 255, 217);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub2div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.subdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+p {
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    text-align: center;
+    color: grey;
+}
+
+.icon {
+    width: 5rem;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .logo {
+        margin-left: 0.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .subdiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+
+
+    .sub2div {
+        display: block;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .sec2 {
+        width: 100%;
+        height: 80vh;
+        padding-bottom: 3rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        text-align: center;
+        color: grey;
+    }
+
+    .icon {
+        width: 4rem;
+    }
+}

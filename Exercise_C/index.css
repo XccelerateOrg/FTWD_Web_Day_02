@@ -1,4 +1,44 @@
-/* 
-This css sheet is linked to index.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+width: 100%;
+}
+
+.blue, .red, .green {
+    width: 100px;
+    height: 100px;
+    
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color:red;
+}
+
+.green {
+    background-color: green;
+}
+
+.bluecon, .greencon {
+    width: 50%;
+}
+
+.redcon {
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+}
+
+.bluecon {
+    justify-content: flex-start;
+}
+
+.greencon {
+    justify-content: flex-end;
+}
