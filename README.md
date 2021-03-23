@@ -70,3 +70,10 @@ Method Two:
 ## What is one thing that I learned from doing this project? :books:
 
 (Fill whatever you would like here!)
+I tried to utilize new things to accomplish the exercises,
+for exercise B i find it hard to just use float to let the red square being position to the middle. 
+
+<br>
+Then i tried to use flexbox within exercise D. Since i am not familiar with it, i have to do research, look up the document to know how it works. Though the result is not very satisfying, but i got to learn more about it.
+
+
