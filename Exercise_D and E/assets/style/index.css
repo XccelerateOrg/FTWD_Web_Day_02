@@ -2,3 +2,89 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+h1 {
+    color: #fff;
+    font-size: 4rem;
+}
+
+div.nav {
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    background-color: white;
+    
+}
+
+div.intro {
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+}
+
+div.content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+}
+
+div.bg {
+    width: 100%;
+    height: 60vh;
+    background-image: url("../images/flowershop.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+div.service {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div.grid {
+    display: grid;
+    width: 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+p {
+    text-align: center;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+img.logo {
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem;
+}
+
+div.logo {
+    display: flex;
+}
+
+body {
+    background-color: #99bb11;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    font-size: 1.5rem;
+    border-radius: 50px;
+    height: 3rem;
+    width: 10rem;
+    border: none;
+    color: #fff;
+    background-color: green;
+}
