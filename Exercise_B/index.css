@@ -2,3 +2,36 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.div-one{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    float: left;
+}
+
+.div-two{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: left;
+    position: absolute;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 100px;
+}
+
+.div-three{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    float: right;
+}

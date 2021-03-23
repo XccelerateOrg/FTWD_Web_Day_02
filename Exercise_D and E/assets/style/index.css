@@ -2,3 +2,114 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+body{
+ margin: 0;
+ padding: 0;
+}
+
+nav{
+ background-color: white;
+}
+
+#logo{
+ margin: 1rem 3rem;
+}
+
+#intro-section{
+ background-image: url('/Exercise_D\ and\ E/assets/images/flowershop.jpg');
+ background-color: rgb(66, 66, 66);
+ background-blend-mode: multiply;
+ object-fit: cover;
+ height: 60vh;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.flex-child{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 20vh;
+}
+
+.heading-text{
+    color: white;
+    margin-bottom: 34px;
+    font-size: 2rem;
+}
+
+.button{
+    color: white;
+    background-color: greenyellow;
+    border: none;
+    padding: 10px 25px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+a{
+    color: white;
+}
+
+#features{
+  background-color: #99d98c;
+  height: 50vh;
+}
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.center-div{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.icon{
+    flex-basis: 50%;
+    padding-top: 4rem;
+}
+
+.feature-icon{
+    width: 80px;
+}
+
+.feature-text{
+    display: inline-block;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .center-div{
+        margin: 0 auto
+      }
+      #features{
+        background-color: #99d98c;
+        height: 100vh;
+      }  
+      .wrapper{
+        display: flex;
+        flex-direction: row;
+        padding: 10px 15px;
+      }
+      .feature-text{
+        margin: 20px 0px;
+        display: block;
+    }
+    .icon{
+        padding-top: 1rem;
+    }
+    .feature-text{
+        display: inline-block;
+        text-align: center;
+        font-size: 14px;
+    }
+      
+}
