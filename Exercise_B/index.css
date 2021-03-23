@@ -2,15 +2,13 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
-body {
-    display: flex;
+#container {
     width: 50%;
-    justify-content: space-between;
 }
 
 div {
     height: 100px;
-    width: 100px;   
+    width: 100px;
 }
 
 #blue {
@@ -19,9 +17,11 @@ div {
 
 #red {
     background-color: red;
-    margin-top: 100px;
+    margin: 0 45%;
+
 }
 
 #green {
     background-color: green;
+    float: right;
 }
