@@ -70,3 +70,4 @@ Method Two:
 ## What is one thing that I learned from doing this project? :books:
 
 (Fill whatever you would like here!)
+More practice and more familiar with all different syntax and the website structure.
