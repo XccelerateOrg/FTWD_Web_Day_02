@@ -2,3 +2,120 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+*{
+    margin:0;
+    padding:0;
+}
+
+header img{
+    padding-left: 30px;
+}
+
+#banner{
+    background-color: rgba(0, 0, 0, 0.6);
+/* defines the blending mode of each background layer (color and/or image)*/    
+    background-blend-mode: multiply;
+    background-image: url(../images/flowershop.jpg);
+    height: 800px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#banner h1{
+    position:absolute;
+    color:white;
+   /*  justify-content: center;
+    align-items: center; */
+    margin-bottom: 100px;
+}
+
+#banner button{
+ margin-top: 10px;
+ background-color: rgb(147, 235, 16);
+ color:white;
+ border-radius: 30px;
+ font-size: 30px;
+ text-align: center;
+ padding:2px 10px
+}
+
+#iconbanner{
+    background-color: rgb(211, 230, 193);
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+
+#iconbanner div{
+    width:50%;
+    display:flex;
+ /*    border:1px solid; */
+}
+
+#imgicon{
+    width:20%;
+    justify-content: center;
+    align-items: center;
+}
+
+#textarea{
+    width:20%;
+    clear: both;
+}
+
+.iconimg{
+    margin-top:8%;
+    margin-left:20%;
+    float: right;
+    clear: both;
+}
+
+#icontext{
+ position: relative;
+ margin-top:10%;
+ font-size: 40px;
+ justify-content: center;
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    
+    .iconimg{
+        margin-top:8%;
+        margin-left:20%;
+        height:60px;
+        float: right;
+        clear: both;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #icontext{
+        margin-top:10%;
+        font-size: 35px;
+        justify-content: center;
+       }
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .iconimg{
+        margin-top:8%;
+        margin-left:20%;
+        height:30px;
+        float: right;
+        clear: both;
+    }
+    
+    #icontext{
+        margin-top:10%;
+        font-size: 20px;
+        justify-content: center;
+       }
+}
