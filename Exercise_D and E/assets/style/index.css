@@ -2,3 +2,32 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+
+/* Header CSS */
+
+header {
+    padding: 25px;
+}
+
+/* Gallery CSS */
+.gallery {
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+.gallery img {
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.gallery h1 {
+
+}
+
+.gallery p {
+
+}
+
+/* Footer CSS */
