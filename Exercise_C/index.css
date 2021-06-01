@@ -2,3 +2,26 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+.container{
+    display:flex;
+    justify-content: space-between;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.blue{
+    background-color: blue;
+}
+.green{ 
+    background-color: green;
+}
+.row2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.red{
+    background-color: red;
+}
