@@ -2,3 +2,30 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+.Top{
+    background-image:url('../images/flowershop.jpg');
+    filter: brightness(80%);
+    display: flexbox;
+    width:1280px;
+    height:720px;
+    color: white;
+    text-align: center;
+    justify-self: center;
+    padding-top: 360px;
+}
+
+.below{
+    background-color: greenyellow;
+    /* width: 1280px; */
+    height: 360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.four {display: flex;
+    align-items:center;}
+.four img{width:128px ;
+    height: 128px;}
