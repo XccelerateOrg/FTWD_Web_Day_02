@@ -2,3 +2,98 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+/*CSS for header */
+
+body {
+    width: 1000px;
+}
+
+.logo {
+    margin: 25px;
+}
+
+
+
+/*CSS for the Flower picture and the button */
+
+.bigFlowerPicture {
+    width: 1280px;
+    position: relative;
+}
+
+.bigFlowerPicture .centeredText {
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 22%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bigFlowerPicture img{
+    filter: brightness(0.5);
+    width: 1000px;
+}
+
+
+.bigFlowerPicture .btn {
+    position: absolute;
+    top: 65%;
+    left: 38%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(141, 207, 40);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+/*Code for the footer */
+
+.footerContainer{
+    width: 1000px;
+    background-color: rgb(186, 236, 186);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}   
+
+.footerContainer p {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    font-weight:lighter;
+    font-size: 18px;
+
+}
+
+.div1 {
+    display: inline-flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.div2 {
+    display: inline-flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.div3 {
+    display: inline-flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.div4 {
+    display: inline-flex;
+    align-items: center;
+    padding: 20px;
+}
+
