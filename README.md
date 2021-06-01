@@ -69,4 +69,6 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here!)
+Although frameworks like foiundation or bootstrap offer ease of use and are (sometimes) straight forward to set up, the main thing I've used in the past is their grid layout function... I tried setting up my own grid using css grids and it was crazy simple. I also like that I can use flexbox elements within a grid to help with layout.
+
+I now want to start my about-me site again using nothing but vanilla css as I think it will be able to showcase my front-end abilities better than just relying on a framework. And a framework for a site this small probably isn't necessary because it comes with a bunch of code i'll never utilise.
