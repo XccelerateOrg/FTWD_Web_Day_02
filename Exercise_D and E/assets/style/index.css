@@ -2,3 +2,82 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/flowershop.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    background-color: white;
+}
+
+.text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+
+.learnMoreBtn {
+    border-radius: 30px;
+    background-color: rgb(121,187,22);
+    padding: 12px 34px;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.learnMoreBtn:hover {
+    border: 1px solid red;
+    background: red;
+    transition: 1s;
+}
+
+.info {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    background: lightgreen;
+    background-size: cover;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.info p {
+display: inline-block;
+width: 30% ;
+font-size: 30px;
+align-items: center;
+}
+
+.info img {
+    width: 120;
+    height: 120px;
+    margin-bottom: 100px;
+
+}
+
+
