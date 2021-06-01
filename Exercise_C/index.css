@@ -7,20 +7,25 @@ You can style tags, classes (.) or ids (#) from this file.
     height: 100px;
     width: 100px;
     background-color: blue;
-    display: inline-block;
-    display: flex;
+    
 }
 
 .redBox {
     height: 100px;
     width: 100px;
     background-color: red;
-    margin-left: 45%;
+    margin-top: 100px;
+    
 }
 
 .greenBox {
     height: 100px;
     width: 100px;
     background-color: green;
+    
+}
+
+.container {
     display: flex;
+    justify-content: space-between;
 }
