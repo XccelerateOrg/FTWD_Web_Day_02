@@ -46,7 +46,7 @@ Method Two:
 
 * [*] Exercise C: Flex Box Three Divs, recreate the image from the last exercise, use HTML and CSS, use css flex
 
-* [ ] Exercise D: Flowerbox VI - recreate the site using HTML and CSS, refer to the image below OR create your own layout template as we did in class
+* [*] Exercise D: Flowerbox VI - recreate the site using HTML and CSS, refer to the image below OR create your own layout template as we did in class
 
   ![flowerShop](assets/flowerShop.png)
 
