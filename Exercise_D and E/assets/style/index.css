@@ -2,3 +2,121 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+.logo {
+    background-color: white;
+    height: 10%;
+}
+
+#logo {
+    height: auto;
+}
+
+.upper {
+    background-image: url('../images/flowershop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+    background-color:rgba(0,0,0,0.6);
+    background-blend-mode: multiply;
+}
+
+#headline {
+    Font-size: 60px;
+    color: white; 
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 28%;
+}
+
+#learnmore {
+    Font-size: 30px;
+    font-weight: 700;
+    color: white;
+    margin-top: 30px;
+    margin-left: 41%;
+    margin-right: 41%;
+    padding: 5px 5px 5px 5px;
+    background-color: chartreuse;
+    text-align:center;
+    border-radius: 25px;
+}
+
+.lower {
+    background-color: #adf0ad;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between;
+    justify-content: space-between;
+    padding: 10% 15% 10% 15%;
+}
+
+.lower p {
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.flower {
+    width: 400px;
+    height: 150px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+#flowericon {
+    height: 90%;
+    float: left;
+}
+
+.payment {
+    width: 400px;
+    height: 150px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+#paymenticon {
+    height: 90%;
+    float: left;
+}
+
+.phone {
+    width: 400px;
+    height: 150px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+#phoneicon {
+    height: 90%;
+    float: left;
+}
+
+.delivery {
+    width: 400px;
+    height: 150px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+#deliveryicon {
+    height: 90%;
+    float: left;
+}
+
+@media (min-width:450px), (max-aspect-ratio: 3/2) {
+    #learnmore {
+        Font-size: 15px;
+        font-weight: 700;
+        color: white;
+        margin-top: 30px;
+        margin-left: 41%;
+        margin-right: 41%;
+        padding: 5px 5px 5px 5px;
+        background-color: chartreuse;
+        text-align:center;
+        border-radius: 25px;
+    }
+  }
