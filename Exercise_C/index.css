@@ -1,4 +1,27 @@
-/* 
-This css sheet is linked to index.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+.box-wrap {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.red {
+    background-color: red;
+    align-self: flex-end;
+
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+    
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+
