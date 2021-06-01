@@ -55,7 +55,7 @@ a .whitetxt{
     grid-template-columns: repeat(4, 2fr);
     width: 100%;
     margin: auto;
-    padding: 0 300px;
+    padding: 0 10%;
 }
 
 .rightcenter{
