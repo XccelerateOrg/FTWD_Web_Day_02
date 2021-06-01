@@ -2,3 +2,58 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+background-color: white;
+}
+.mid{
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/flowershop.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height:700px;
+}
+.mid > p{
+    color: white;
+    font-size: 50px;
+    padding-top: 300px;
+    margin-bottom: 50px;
+}
+.mid > a{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(121, 187, 22);
+    text-decoration: none;
+    padding-top : 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+
+}
+.bottom{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(181, 235, 181) ;
+    text-align: center;
+   
+}
+.bottom > div > p{
+    display: inline-block;
+    width: 30%;
+    font-size: 30px;
+    
+}
+.bottom > div{
+    margin-top: 100px;
+}
+#three, #four{
+    margin-bottom: 100px;
+}
