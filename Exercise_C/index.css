@@ -2,3 +2,40 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+body {
+    background-color: black !important;
+}
+
+.container {
+    background-color: white;
+    height: 220px;
+    width: 600px;
+    display: flex; /*Container prop: Display*/
+    flex-direction: row; /*Container prop: flex-flow*/
+    justify-content: space-between;/*Container prop: Justify-content*/
+    /*Container prop: align-items*/
+    margin: 10px; 
+    padding: 5px 5px 10px 5px !important;
+}
+
+.A {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    /*Container prop: flex*/
+    /*Container prop: order*/
+    /*Container prop: align-self*/
+}
+
+.B {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    align-self: flex-end;
+}
+
+.C {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}

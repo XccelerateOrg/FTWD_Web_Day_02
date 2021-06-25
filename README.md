@@ -71,4 +71,14 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here!)
+## CSS:
+
+### 1. Flex
+### 2. Grid
+### 3. Overlay
+- background-image:    linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+      ), url("./assets/images/flowershop.jpg");
+### 4. @media
+### 5. Using Git

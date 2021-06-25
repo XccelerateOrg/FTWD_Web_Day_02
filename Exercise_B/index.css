@@ -2,3 +2,40 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+body {
+    background-color: black !important;
+}
+
+.main {
+    background-color: white;
+    height: 220px;
+    width: 600px;
+    display: block;
+    margin: 10px;
+    padding: 5px 5px 10px 5px;
+}
+
+.A {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    float: left;
+    display: block;
+}
+
+.C {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    clear: both;
+    display: block;
+    margin: auto;
+}
+
+.B {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    float: right;
+    display: block;
+}
