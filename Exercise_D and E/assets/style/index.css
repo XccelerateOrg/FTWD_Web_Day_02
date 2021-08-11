@@ -2,3 +2,164 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+*{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,0);
+    margin: 20px auto 20px;
+    background-color:#7ad216;
+    color: white;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    border: 0px;
+}
+.logo{
+    width: 200px;
+    height: 60px;
+}
+.navbar{
+    background-color: white;
+}
+.hero-image{
+    width: 100%;
+    height: auto;
+    
+}
+.hero{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.text{
+    margin: 20px auto 20;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    color: white;
+   
+}
+.bottom{
+    background-color: #cee7b4;
+
+}
+.p-1{
+    margin: 10px 20px 0;
+    font-size: 25px;
+    padding: 50px 0 0px;
+}
+.p-2{
+    margin: 50px 20px 0;
+    font-size: 25px;
+    padding: 50px 0 0px;
+}
+.flex-container
+{
+    display: flex;
+   flex-direction: row;
+    text-align: center;
+  
+    
+}
+.flex-item{
+   
+    display: inline-block;   
+    width: 450px;
+    margin: 80px 40px 80px;
+    
+    
+}
+.flex-row{
+    position: relative;
+}
+.icon{
+  
+    float: left;
+}
+@media screen and (max-width:1070px)
+{
+    .logo{
+        height: 30px;
+        width: 100px;
+    }
+
+    .icon{
+        height: 100px;
+        width: 100px;
+    }
+    .flex-item{
+        width: 300px;
+    }
+    .p-1{
+        margin: 0px 20px 0;
+        font-size: 25px;
+        padding: 20px 0 0px;
+    }
+    .p-2{
+        margin: 0px 20px 0;
+        font-size: 25px;
+        padding: 50px 0 0px;
+    }
+}
+@media screen and (max-width:900px)
+{
+    .text{
+        font-size: 40px;
+    }
+    .button{
+        height: 25px;
+        width: 75px;
+        font-size: 10px;
+    }
+    .p-1{
+        margin: 10px 20px 0;
+        font-size: 15px;
+        padding: 20px 0 0px;
+    }
+    .p-2{
+        margin: 10px 20px 0;
+        font-size: 15px;
+        padding: 25px 0px 0px;
+    }
+    .icon{
+        height: 100px;
+        width: 100px;
+    }
+    .flex-item{
+        width:225px;
+    }
+}
+
+@media screen and (max-width:640px)
+{
+    .text{
+        font-size: 30px;
+    }
+    .icon{
+        height: 50px;
+        width: 50px;
+    }
+    .p-1{
+        margin: 0px 0px 0;
+        font-size: 5px;
+        padding: 0px 0 0px;
+    }
+    .p-2{
+        margin: 0px 0px 0;
+        font-size: 5px;
+        padding: 0px 0 0px;
+    }
+    .flex-item{
+        width:155px;
+    }
+}
