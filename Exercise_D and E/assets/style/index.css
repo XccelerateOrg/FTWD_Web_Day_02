@@ -1,4 +1,51 @@
-/* 
-This css sheet is linked to practice.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+.card {
+  background-image: url(../images/flowershop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+.card-inside p {
+  /* text-align: center; */
+  font-size: 120px;
+  color: aliceblue;
+  padding-top: 400px;
+}
+.card-inside button {
+  padding: 6px 20px 6px 20px;
+  background-color: rgb(41, 184, 41);
+  border-radius: 25px;
+  /* text-align: center; */
+  border-color: green;
+  color: white;
+}
+
+.card-inside {
+  text-align: center;
+}
+.items {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  background-color: lightgreen;
+  padding-top: 100px;
+  justify-content: space-evenly;
+}
+.flex1,
+.flex2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-bottom: 70px;
+}
+
+.items1 {
+  display: flex;
+  flex-direction: row;
+  width: 490px;
+  align-items: center;
+}
+@media only screen and (max-width: 500px) {
+  card {
+    background-color: rgb(240, 232, 232);
+  }
+}
