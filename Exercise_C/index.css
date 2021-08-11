@@ -2,3 +2,34 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+#big-bg {
+  display: flex;
+  justify-content: space-evenly;
+  width: 800px;
+  height: 400px;
+}
+
+#blue,
+#green,
+#red {
+  width: 200px;
+  height: 200px;
+}
+
+#blue {
+  background-color: blue;
+  order: 1;
+  align-self: flex-start;
+}
+
+#green {
+  background-color: green;
+  order: 3;
+  align-self: flex-start;
+}
+
+#red {
+  background-color: red;
+  order: 2;
+  align-self: flex-end;
+}
