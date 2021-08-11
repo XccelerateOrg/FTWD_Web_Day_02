@@ -71,4 +71,6 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
+From this project, i got to understand the usage of flexbox, which is so useful to slove many problems that is difficult to be sloved, also have learnt the flexible ways when laying the patterns.
+
 (Fill whatever you would like here!)
