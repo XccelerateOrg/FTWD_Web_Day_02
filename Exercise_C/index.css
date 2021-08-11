@@ -2,3 +2,33 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+.divcontainer {
+    height: 200px;
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#blue-square {
+    height: 100px;
+    width: 100px;
+    background: blue;
+    order: 1;
+    align-self: flex-start;    
+  }
+  
+#green-square {
+    height: 100px;
+    width: 100px;
+    background: green;
+    order: 3;
+    align-self: flex-start;
+  }
+  
+#red-square {
+    height: 100px;
+    width: 100px;
+    background: red;
+    order: 2;
+    align-self: flex-end;
