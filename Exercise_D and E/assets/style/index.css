@@ -2,3 +2,74 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+/* Global
+------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header
+------------------------------- */
+#pageHeader img {
+  margin: 10px 0 10px 10px;
+}
+
+/* Background
+------------------------------- */
+#background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("../images/flowershop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#background h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 5rem;
+  padding-top: 40vh;
+  padding-bottom: 2vh;
+}
+
+#background button {
+  display: block;
+  margin: 0 auto;
+  background-color: #7ad216;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 6px 10px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
+/* Content
+------------------------------- */
+#content {
+  background-color: #cee7b4;
+}
+
+#firstContent,
+#secondContent {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+#secondContent {
+  padding-bottom: 10%;
+}
+
+.col-1 {
+  display: flex;
+  align-items: center;
+  min-width: 400px;
+  margin-left: 8%;
+}
+
+.col-1 p {
+  text-align: center;
+  padding-left: 5%;
+}
