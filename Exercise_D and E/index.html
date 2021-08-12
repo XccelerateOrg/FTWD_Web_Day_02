@@ -1,22 +1,61 @@
 <!DOCTYPE html>
 <html class="no-js">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./assets/style/index.css" />
-    <link
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./assets/style/index.css" />
+  <!-- <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!-- CODE HERE -->
+    /> -->
+</head>
 
+<body>
+  <header id="top">
+    <img id="logo" src="./assets/images/logo.png" alt="" style="float:left">
+    <!--wrong:src="./logo.png"  */ -->
+  </header>
+
+  <!-- 是否需要在css和index都要quote img file -->
+  <div id="background">
+    <!-- <div id="overlay"></div> -->
+    <!-- 不應用img，如用img就算在css寫file名冇用，要在img tag寫 -->
+    <div id="shopname">Beautiful Flowers</div>
+    <button id="learnmore"> Learn More</button>
+  </div>
+
+  <!-- ----------下一部分--------- -->
+  <div id="info">
+    <div id="row1">
+      <div class="item">
+        <img src="./assets/images/flower-icon.png">
+        <p>Flowers for every kind of situation</p>
+      </div>
+
+      <div class="item">
+        <img src="./assets/images/payment-icon.png">
+        <p>All major payment kinds accepted</p>
+      </div>
+    </div>
+
+    <div id="row2">
+      <div class="item">
+        <img src="./assets/images/phone-icon.png">
+        <p>Free consultation</p>
+      </div>
+      <div class="item">
+        <img src="./assets/images/truck-icon.png">
+        <p>City wide delivery</p>
+      </div>
+    </div>
     <script src="" async defer></script>
-  </body>
+
+</body>
+
 </html>
