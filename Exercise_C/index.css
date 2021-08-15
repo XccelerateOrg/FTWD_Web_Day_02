@@ -1,4 +1,29 @@
-/* 
-This css sheet is linked to index.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* flex box要set在parent, */
+section {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+div{
+    height: 100px;
+    width:  100px;
+}
+#blue {
+    background-color: blue;
+    /* float: left; */
+}
+#green {
+    background-color:green;
+    /* float: right; */
+}
+#red {
+    background-color: red;
+    align-self:center;
+  /*wrong: float:clear, also, need: both/right/left   */
+     /* margin:0 auto; */
+    } 
