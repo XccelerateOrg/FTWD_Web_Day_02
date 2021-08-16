@@ -2,3 +2,38 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+.container_1 {
+  background-color: blue;
+}
+
+.container_2 {
+  background-color: red;
+  align-self: flex-end;
+}
+
+.container_3 {
+  background-color: green;
+}
+
+/* Questions:
+1. Why there are spaces on the left and right side of container_1 and container_3 respectively? 
+
+2. Why there must be a "height: 200px" at the ".container" to enable "align-self: flex-end;" at ".container_2"? */
