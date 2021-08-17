@@ -72,3 +72,10 @@ Method Two:
 ## What is one thing that I learned from doing this project? :books:
 
 (Fill whatever you would like here!)
+
+Actually I learnt more than one thing from doing this..
+
+- Learnt to use linear gradient to make the background image dimmer.
+- Learnt to use online color picker to pick the correct color for recreating the website.
+- Learnt to use display: flex to layout the contents.
+- Learnt to use @media to make the flex-direction change to 'column', which allows better layout for small screen size.
