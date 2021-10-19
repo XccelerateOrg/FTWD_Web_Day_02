@@ -14,6 +14,7 @@ nav{
 section{
     background-image: url("../images/flowershop.jpg");
     background-size: cover;
+    background-position: center center;
     height: 60vh;
 }
 section div{
