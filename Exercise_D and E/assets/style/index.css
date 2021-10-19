@@ -2,3 +2,107 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+
+/* ------- header -------*/
+
+.header
+{
+    background-color: white;
+    width:100%;
+    height: 60px;
+}
+
+/* ------- cover -------*/
+.cover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url(/Exercise_D\ and\ E/assets/images/flowershop.jpg) ;
+    width:100%;
+    height:800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left;
+}
+
+.cover h1
+{
+    color: white;
+    text-align: center;
+    margin-top: 300px ;
+
+}
+
+.button
+{
+    background-color: #7ed221;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 8px 10px;
+}
+
+.cover_text
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ------- content -------*/
+
+.content
+{
+    background-color: #cee7b4;
+    height:700px
+}
+
+.table
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    table-layout: fixed;
+    width: 100%;    
+}
+
+.table td
+{
+    padding: 40px;
+}
+
+.content_image
+{
+    width: 70px;
+}
+
+.content_text
+{
+    width: 140px;
+}
+
+.content p
+{
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+
+    .table 
+    {
+        height:1000px;
+        width:100%;
+        background-color: #cee7b4;
+
+    }
+    
+    .table td
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+
+    }
+}
+
