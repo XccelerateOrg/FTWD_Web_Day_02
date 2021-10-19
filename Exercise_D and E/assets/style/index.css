@@ -2,93 +2,105 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(215, 253, 166);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(215, 253, 166);
 }
+
 
 /* nav bar section  */
 
 .nav {
-  background-color: white;
+    background-color: white;
 }
 
+
 /* cover photo section */
+
 .cover {
-  height: 500px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/Exercise_D\ and\ E/assets/images/flowershop.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/Exercise_D\ and\ E/assets/images/flowershop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
-  color: white;
-  font-weight: 400;
-  font-size: 40px;
-  margin: 20px;
-}
-.button {
-  background: rgb(98, 196, 0);
-  color: white;
-  font-size: 20px;
-  padding: 10px 5px;
-  border-radius: 20px;
-  letter-spacing: 1px;
-  width: 140px;
-  height: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.button p{
     color: white;
-    font-size: 20px;
-    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 20px;
 }
 
+.button {
+    background: rgb(98, 196, 0);
+    color: white;
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    width: 140px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button p {
+    color: white;
+    font-size: 20px;
+}
+
+
 /* footer section */
+
 .footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .row {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 70%;
-  margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 50px;
 }
-.flower, .payment, .phone, .truck{
+
+.flower,
+.payment,
+.phone,
+.truck {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .row p {
-  width: 200px;
-  margin-left: 50px;
-  margin-right: 50px;
-  font-size: 18px;
-  text-align: center;
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+    text-align: center;
 }
+
 .row img {
-  height: 100px;
+    height: 100px;
 }
+
 
 /* media queries */
 
 @media screen and (max-width: 850px) {
-    .footer{
+    .footer {
         margin-top: 20px;
     }
     .row {
@@ -96,24 +108,24 @@ h1 {
         flex-direction: column;
         width: 80%;
         margin: 0px;
-      }
-
-    .flower, .payment, .phone, .truck{
+    }
+    .flower,
+    .payment,
+    .phone,
+    .truck {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin: 10px;
     }
-
     .row img {
         height: 50px;
-      }
-    
+    }
     .row p {
         width: 200px;
         margin-left: 20px;
         margin-right: 20px;
         font-size: 17px;
         text-align: center;
-      }
+    }
 }
