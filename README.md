@@ -72,3 +72,7 @@ Method Two:
 ## What is one thing that I learned from doing this project? :books:
 
 (Fill whatever you would like here!)
+
+We can achieve the same results by using different methods, for example, float/flex. 
+
+So we should understand the effects of different methods, and use the tools accordingly in order to achieve our goal in different scenario to make our work more efficient and in a more organized manner.
