@@ -1,4 +1,38 @@
-/* 
-This css sheet is linked to practice.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+#header{
+    height: 50px;
+}
+#backImg{
+    background-image:  url(../images/flowershop.jpg); 
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(70%);
+
+}
+#backImg h1{
+    color: white;
+}
+#backImg button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(152, 252, 3);
+}
+#infoIcon{
+    background-color: rgb(152, 252, 3);
+}
+#infoIcon ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#infoIcon li{
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+#infoIcon li img{
+    height: 75px;
+}
