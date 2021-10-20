@@ -2,3 +2,100 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+* {
+    margin: 0;
+}
+
+#icon{
+    background-color: white;
+    height: 60px;
+    
+}
+
+.flower1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.753)), url(../images/flowershop.jpg);
+       
+    width:100%;
+    height: 720px;
+    
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+    
+    
+
+    
+    
+    
+}
+.bea{
+    
+    font-size: 50px;
+    color:white;
+   
+    
+
+    
+    
+}
+.learn{
+    background-color: yellowgreen;
+    font-size: 25px;
+    padding: 7px;
+    color:white;
+    border-radius:  25px;   
+     
+   
+}
+.four{
+    background-color:RGB(224,246,180);
+
+    color: gray;
+    
+    padding:100px;
+    
+
+
+}
+.tar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    width:250px;
+    
+}
+.feature2{
+    display:flex;
+    align-items: center;
+    width:250px;
+}
+
+.tar2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    ;
+}
+
+.feature3 {
+    display: flex;
+    align-items: center;
+}
+.feature4 {
+    display: flex;
+    align-items: center;
+
+}
