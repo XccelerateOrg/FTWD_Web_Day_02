@@ -1,4 +1,23 @@
-/* 
-This css sheet is linked to index.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+section {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+.blue {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.red {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    align-self: flex-end;
+}
+
+.green {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
