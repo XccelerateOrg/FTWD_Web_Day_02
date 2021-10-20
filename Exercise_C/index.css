@@ -2,3 +2,40 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+* {
+    padding: 5px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.divblue{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+.divgreen{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+
+.divred{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+.bluengreen{
+    display:flex;
+    justify-content: space-between;
+}
+
+.red{
+    display: flex;
+    justify-content: center;
+}
+
+
+
