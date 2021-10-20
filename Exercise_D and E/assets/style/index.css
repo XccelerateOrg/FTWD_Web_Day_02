@@ -2,3 +2,80 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Navbar */
+.navbar{
+    background-color: white;
+    display: flex;
+    margin: 10px 0px;
+    
+}
+
+/* Home Section */
+
+#home{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.664)), url(../images/flowershop.jpg);
+    height: 800px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    
+}
+
+.headings{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 65%;
+    left: 38%;
+    
+    
+    
+}
+
+.btn{
+    padding: 13px 25px;
+    border-radius: 60px;
+    background-color: yellowgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-top: 25px;
+    color: white;
+    
+}
+
+/* about section */
+#about{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(205, 245, 208);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+table{
+    width: 50%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-spacing: 40px;
+
+}
+

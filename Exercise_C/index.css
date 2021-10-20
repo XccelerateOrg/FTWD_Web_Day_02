@@ -1,4 +1,35 @@
-/* 
-This css sheet is linked to index.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+div{
+    height: 100px;
+    width: 100px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+
+    
+#top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: green 10px;
+    
+    
+    
+}
+
+#bottom{
+    display: flex;
+    justify-content: center;
+}
+
+
