@@ -1,0 +1,91 @@
+/* 
+This css sheet is linked to practice.html
+You can style tags, classes (.) or ids (#) from this file.
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav{
+    padding-left: 30px;
+    display: flex;
+    align-content: center;
+    height: 60px;
+}
+
+.img-container{
+    background-image: linear-gradient(rgba(7, 0, 0, 0.719), rgba(15, 14, 14, 0.651)), url(../images/flowershop.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description{
+    height: 34vh;
+    background-color: rgba(170, 224, 109, 0.493);
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.left{
+    /* background-color: green; */
+    height: 100%;
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right{
+    /* background-color: red; */
+    height: 100%;
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content{
+    font-size: 20px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+}
+
+
+h2{
+    color: white;
+    font-size: 60px;
+}
+
+
+.button{
+    background-color: rgb(66, 167, 66);
+    border-radius: 25px;
+    height: 60px;
+    width: 200px;
+}
+
+.textandbutton{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    width: 700px;
+}
+
+h3{
+    font-size: 30px;
+    color: white;
+}
