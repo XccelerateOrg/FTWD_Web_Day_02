@@ -1,4 +1,30 @@
-/* 
-This css sheet is linked to index.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+body{
+    align-items: center;
+}
+#row1{
+    display: block;
+}
+#block1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    float: left;
+    display: block;
+}
+#block3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    float: right;
+    display: block;
+
+}
+#block2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 50%;
+
+}

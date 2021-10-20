@@ -2,3 +2,29 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+#row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#block1{
+    height: 75px;
+    background-color: #0000ff;
+    width: 75px;
+
+}
+#block2{
+    height: 75px;
+    background-color: green;
+    width: 75px;
+}
+#row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#block3{
+    height: 75px;
+    background-color: red;
+    width: 75px;
+}
