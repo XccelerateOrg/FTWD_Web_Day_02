@@ -53,6 +53,7 @@ Method Two:
   ![flowerShop](assets/flowerShop.png)
 
 - [ ] Finish the 'What is one thing that I learned from doing this project?' in the readme
+      [I have learned how to make background darken by using linear-gradient.]
 - Bonus
 
 - [ ] Exercise E: Flowerbox VII: Add @media queries such that your page is styled appropriately for mobiles, change your CSS file.
