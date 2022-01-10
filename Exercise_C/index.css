@@ -1,4 +1,26 @@
-/* 
-This css sheet is linked to index.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+.box {
+  height: 100px;
+  width: 100px;
+}
+.top-right {
+  background-color: blue;
+}
+.top-left {
+  background-color: green;
+}
+.bottom-center {
+  background-color: red;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  height: 500px;
+  width: 100%;
+  flex-direction: row;
+  align-self: baseline;
+  justify-content: space-between;
+}
+.flex-container .bottom-center {
+  align-self: center;
+}
