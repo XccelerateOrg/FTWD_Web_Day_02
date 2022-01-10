@@ -1,4 +1,138 @@
-/* 
-This css sheet is linked to practice.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/* css for header */
+
+/* css for main-content goes here */
+.content {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/flowershop.jpg);
+  background-size: cover;
+  height: 60vh;
+}
+.text {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  height: 40vh;
+  text-align: center;
+}
+h1 {
+  color: white;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+}
+button {
+  color: white;
+  border-radius: 20px;
+  background-color: yellowgreen;
+  font-size: 2rem;
+  padding: 0.5% 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 200px;
+}
+
+/* css for footer goes here */
+.footer {
+  background-color: #cee7b4;
+}
+.icons-1,
+.icons-2,
+li {
+  display: inline;
+}
+.icon-size {
+  width: 9vh;
+}
+p {
+  text-transform: capitalize;
+  font-size: 2vh;
+}
+
+.row-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* media queries begins here */
+
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  /* css for header */
+
+  /* css for main-content goes here */
+  .content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/flowershop.jpg);
+    background-size: cover;
+    height: 60vh;
+  }
+  .text {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 40vh;
+    text-align: center;
+  }
+  h1 {
+    color: white;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+  }
+  button {
+    color: white;
+    border-radius: 20px;
+    background-color: yellowgreen;
+    font-size: 2rem;
+    padding: 0.5% 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+  }
+
+  /* css for footer goes here */
+  .footer {
+    background-color: #cee7b4;
+  }
+  .icons-1,
+  .icons-2,
+  li {
+    display: inline;
+  }
+  .icon-size {
+    width: 9vh;
+  }
+  p {
+    text-transform: capitalize;
+    font-size: 2vh;
+  }
+
+  .row-1 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+  }
+
+  .row-2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
