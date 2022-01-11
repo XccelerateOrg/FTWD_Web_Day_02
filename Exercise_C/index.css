@@ -1,12 +1,12 @@
 .container{
     display:flex;
     justify-content:space-between;
-    height:600px;
+    height:900px;
 }
 
 .container>div{
-    height:200px;
-    width:200px;
+    height:300px;
+    width:300px;
 }
 .left{
     background: blue; 
