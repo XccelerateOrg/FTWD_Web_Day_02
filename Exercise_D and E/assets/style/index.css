@@ -1,4 +1,148 @@
 /* 
-This css sheet is linked to practice.html
+This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gridcontainer {
+  display: grid;
+  grid-template-areas:
+    "head head"
+    "mid mid"
+    "bottom1 bottom1"
+    "bottom2 bottom2";
+}
+.topbar {
+  background-color: white;
+  height: 8vh;
+  grid-area: head;
+}
+.header {
+  color: white;
+  text-align: center;
+  padding-top: 5em;
+}
+.button {
+  background-color: chartreuse;
+  color: white;
+  text-align: center;
+  width: 150px;
+  border-radius: 25px;
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+.midbackdrop {
+  grid-area: mid;
+  background-image: url(../images/flowershop.jpg);
+  background-color: black;
+  background-position: center;
+  background-size: 100%;
+  filter: brightness(40%);
+  z-index: 1;
+}
+.mid {
+  grid-area: mid;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.bottombox1 {
+  grid-area: bottom1;
+  display: flex;
+  background-color: #cee7b4;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+.bottombox2 {
+  grid-area: bottom2;
+  display: flex;
+  background-color: #cee7b4;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+.flowerwrapper {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#flowericon {
+  object-fit: contain;
+  height: 60%;
+  align-self: center;
+  justify-self: flex-end;
+}
+.flowerphrase {
+  text-align: left;
+  justify-self: center;
+  align-self: center;
+  padding-right: 7%;
+}
+.moneywrapper {
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#moneyicon {
+  object-fit: contain;
+  height: 60%;
+  align-self: center;
+  justify-self: center;
+}
+.moneyphrase {
+  text-align: left;
+  justify-self: center;
+  align-self: center;
+  padding-right: 20%;
+}
+.phonewrapper {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#phoneicon {
+  object-fit: contain;
+  align-self: center;
+  justify-self: flex-end;
+  height: 60%;
+}
+.phonephrase {
+  text-align: left;
+  justify-self: center;
+  align-self: center;
+  padding-right: 7%;
+}
+.truckwrapper {
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#truckicon {
+  object-fit: contain;
+  height: 60%;
+  align-self: center;
+  justify-self: flex-end;
+}
+.truckphrase {
+  text-align: left;
+  justify-self: flex-start;
+  padding-right: 20%;
+}
