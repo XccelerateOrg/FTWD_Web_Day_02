@@ -2,3 +2,33 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+/* 
+removing the margin and padding reset as I noticed the floatpractice png has slight gaps as margins
+*{
+    margin: 0;
+    padding: 0;
+} */
+#section1{
+    display: flex;
+    justify-content: space-between;
+}
+#section2{
+    display: flex;
+    justify-content: center;
+}
+#blue{
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+ }
+ #green{
+     background-color: green;
+     height: 300px;
+     width: 300px;
+ }
+ #red{
+     background-color: red;
+     display: flex;
+     width: 300px;
+     height: 300px;
+ }

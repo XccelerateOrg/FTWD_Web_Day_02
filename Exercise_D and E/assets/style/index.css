@@ -2,3 +2,199 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+*{
+    margin: 0;
+    padding: 0;
+}
+#background{
+    position: relative;  
+}
+
+#backgroundImage{
+    width: 100vw;
+    filter: contrast(0.9) opacity(0.8) brightness(0.3)
+}
+
+.topText1{
+    position: absolute;
+    left: 38.5vw;
+    top: 45vh;
+    z-index: 1;
+    color: white;
+    font-size: 60px;
+}
+
+.topText2{
+    position: absolute;
+    left: 42.5vw;
+    top: 55vh;
+    z-index: 1;
+    border-radius: 90px;
+    background-color: greenyellow;
+    color: white;
+    font-size: 60px;
+    padding: 6px;
+}
+
+#background{
+    display: flex;
+}
+
+.grid{
+    display: grid;
+    width: 5vw;
+    grid-template-columns: 20vw 30vw 20vw 30vw ;
+        
+}
+
+#finalSection{
+background-color:#e6ffe6;}
+
+.grid-item1, .grid-item3, .grid-item5, .grid-item7{
+    margin-left: 10vw;
+}
+
+.gridimage{
+    max-height: 5vw;
+    padding: 10vh 0 0 0;
+}
+
+.gridText{
+    padding: 12vh 0 0 0;
+}
+
+.gridText2{
+    padding: 12vh 0 0 0;
+}
+
+  @media only screen and (max-width: 1500px) {
+    .topText1{
+        position: absolute;
+        left: 41vw;
+        top: 35vh;
+        z-index: 1;
+        color: white;
+        font-size: 40px;
+    }
+
+    .topText2{
+        position: absolute;
+        left: 44.5vw;
+        top: 45vh;
+        z-index: 1;
+        border-radius: 90px;
+        background-color: greenyellow;
+        color: white;
+        font-size: 40px;
+        padding: 6px;
+    }
+
+    .gridText{
+        padding: 12vh 0 0 0;
+    }
+
+    .gridText2{
+        padding: 12vh 0 0 0;
+    }
+}
+
+    @media only screen and (max-width: 1200px) {
+        .topText1{
+            position: absolute;
+            left: 37.5vw;
+            top: 25vh;
+            z-index: 1;
+            font-size: 30px;
+        }
+
+        .topText2{
+            position: absolute;
+            left: 41vw;
+            top: 31vh;
+            z-index: 1;
+            font-size: 30px;
+        }
+
+        .gridimage{
+            max-height: 5vw;
+            padding: 7vh 0 0 0;
+        }
+
+        .gridText{
+            padding: 7vh 0 0 0;
+        }
+
+        .gridText2{
+            padding: 7.5vh 0 0 0;
+        }
+      }
+
+    @media only screen and (max-width: 750px) {
+        .topText1{
+            position: absolute;
+            left: 33vw;
+            top: 17vh;
+            z-index: 1;
+            font-size: 25px;
+        }
+
+        .topText2{
+            position: absolute;
+            left: 36.5vw;
+            top: 23vh;
+            z-index: 1;
+            font-size: 25px;
+        }
+
+        .gridimage{
+            max-height: 5vw;
+            padding: 6vh 0 0 0;
+        }
+
+        .gridText{
+            padding: 6vh 0 0 0;
+        }
+
+        .gridText2{
+            padding: 7vh 0 0 0;
+        }
+
+        #finalsection{
+            margin-left: 3vw;
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        .topText1{
+            position: absolute;
+            left: 33vw;
+            top: 13vh;
+            z-index: 1;
+            font-size: 20px;
+        }
+
+        .topText2{
+            position: absolute;
+            left: 36.5vw;
+            top: 17vh;
+            z-index: 1;
+            font-size: 20px;
+        }
+
+        .gridimage{
+            max-height: 5vw;
+            padding: 3vh 0 0 0;
+        }
+
+        .gridText{
+            padding: 2.5vh 0 0 0;
+        }
+
+        .gridText2{
+            padding: 3vh 0 0 0;
+        }
+
+        .grid-item1, .grid-item3, .grid-item5, .grid-item7{
+            margin-left: 8vw;
+        }
+      }

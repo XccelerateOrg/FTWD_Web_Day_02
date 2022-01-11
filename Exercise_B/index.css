@@ -2,3 +2,28 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+/* 
+removing the margin and padding reset as I noticed the floatpractice png has slight gaps as margins
+*{
+    margin: 0;
+    padding: 0;
+} */
+#blue{
+   background-color: blue;
+   height: 300px;
+   width: 300px;
+   float: left; 
+}
+#green{
+    background-color: green;
+    float: right;
+    height: 300px;
+    width: 300px
+}
+#red{
+    background-color: red;
+    clear: both;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+}
