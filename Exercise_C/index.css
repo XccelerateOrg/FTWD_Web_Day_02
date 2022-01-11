@@ -1,4 +1,24 @@
-/* 
-This css sheet is linked to index.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+.container{
+    display:flex;
+    justify-content:space-between;
+    height:600px;
+}
+
+.container>div{
+    height:200px;
+    width:200px;
+}
+.left{
+    background: blue; 
+
+}
+
+.center{
+    background:red;
+    align-self:center;
+}
+
+.right{
+    background:green;
+
+}
