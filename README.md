@@ -71,4 +71,5 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
+Try and fail, try again. Ask tutors tomorrow!
 (Fill whatever you would like here!)

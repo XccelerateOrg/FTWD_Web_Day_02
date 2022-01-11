@@ -1,0 +1,82 @@
+/* 
+This css sheet is linked to practice.html
+You can style tags, classes (.) or ids (#) from this file.
+*/
+
+html, body{
+    height:100%;
+    margin:0px;
+}
+.top{
+    background:white;
+    border:0px;
+    padding:0px;
+
+}
+.main{
+    /* background-image: url(../images/flowershop.jpg); */
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/flowershop.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    /* background-blend-mode: darken; */
+    height: 100%; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  
+
+
+    /* position:relative;
+    filter: brightness(50%); */
+    /* color:white; */
+    /* margin: 0px 0px 0px 0px; */
+}
+
+#BF{
+    /* color:white;
+    text-align: center;
+    align-items: center; */
+    font-size:40px;
+
+}
+
+#LM{
+    /* color:white;
+    text-align: center;
+    align-items: center; */
+    background:rgb(125, 219, 31);
+    font-size:30px;
+    padding:5px;
+    border-radius:20px;
+}
+
+.products{
+    background:#CEE7B4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top:50px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    /* justify-content: center;
+    align-items: center;
+    padding:30px; */
+
+}
+
+.icon{
+    float:left;
+    width:30%;
+    padding-bottom:30px;
+}
+
+.description{
+    float:right;
+}
+
+
+
