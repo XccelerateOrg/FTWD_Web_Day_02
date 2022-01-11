@@ -146,3 +146,29 @@ You can style tags, classes (.) or ids (#) from this file.
   justify-self: flex-start;
   padding-right: 20%;
 }
+@media screen and (max-width: 420px) {
+  .bottombox1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .bottombox2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .flowerphrase {
+    text-align: center;
+    padding-right: 0;
+  }
+  .moneyphrase {
+    text-align: center;
+    padding-right: 0;
+  }
+  .phonephrase {
+    text-align: center;
+    padding-right: 0;
+  }
+  .truckphrase {
+    text-align: center;
+    padding-right: 0;
+  }
+}
