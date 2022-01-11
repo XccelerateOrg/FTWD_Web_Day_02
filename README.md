@@ -71,4 +71,4 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here!)
+<!-- (I learnt how to style webpages in different ways such as using float and flex to manipulate the positioning of boxes/images/texts depending on what we want for ourselves. I also learnt that the smallest typo can create the biggest of errors so it's always important to constantly check your code as you are typing it as you never know how much coding you'll be creating length wise) -->
