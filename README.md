@@ -71,4 +71,10 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here!)
+Things to improve with the flower shop landing page:
+
+- The flower shop image should be made the background of the home section.
+- The image should be shaded.
+- Both the 'Beautiful Flowers' slogan and the button should be positioned at the centre.
+- In the features section, each of the icons should be placed side by side with the texts.
+- Etc.

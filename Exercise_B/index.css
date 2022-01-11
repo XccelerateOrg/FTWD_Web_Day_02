@@ -2,3 +2,36 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+.firstrow {
+  height: 100px;
+  position: relative;
+}
+
+.secondrow {
+  position: relative;
+}
+
+.bluesquare, .greensquare, .redsquare {
+  width: 100px;
+  height: 100px;
+}
+
+.bluesquare {
+  background-color: blue;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.greensquare {
+  background-color: green;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.redsquare {
+  background-color: red;
+  margin: auto;
+}
