@@ -71,4 +71,8 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here!)
+1. There is a couple of important take aways I got from the exercizes. First and foremost the use of Git and Github. Submitting the exersize was the first real use of Git for me and I believe that that in itself was already a great learning experience. I need to be careful to check whether I am `git add` inside the right folder. Tried to push everything while in the Exercize A folder and that didn't work. One of those awesome mistakes that teach you valuable lessons.
+
+2. Best takeaway for me was the realisation that it is going to safe a lot of time if I scetch out the website on paper first. This would have shown me to either use flexbox or increase my grid columns. I spend a lot of time trying to align the icons to the right and the phrases to the left. I was unable to make the money and truck icon's be similarly spaced with their respective phrases like with the flower and phone icon. I could have solved this (in grid) by adding more columns and assigning the appropriate space. Currently I solved it using flexbox and padding, different solution, same result.
+
+3. First time using @media queries.
