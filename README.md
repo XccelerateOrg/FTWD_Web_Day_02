@@ -71,4 +71,7 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here!)
+(Missed this earlier.
+I learnt a lot, from little things; like the filter option to make backgrounds darker so the text on top of them stand out better, to important things like how to better use media queries (I struggled with them previously).
+If I had to pick "one thing", it would be patience in working and developing (front end) pages. I imagine if a UI developer gave me that flowershop image to recreate and I had to assume quite a bit without much guidance... it's easy to get frustrated. But with patience, I'm glad it all worked out.
+)
