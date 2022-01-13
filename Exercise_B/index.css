@@ -19,6 +19,7 @@ You can style tags, classes (.) or ids (#) from this file.
 .bottom-center {
   background-color: red;
   float: left;
-  margin-left: 40%;
+  margin-left: 45%;
   margin-top: 40%;
+  clear: both;
 }
