@@ -2,3 +2,89 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+html, body{
+    height: 100%;
+}
+
+nav {
+    padding-left: 20px;
+    background-color: #ffff;
+}
+
+
+.section1 {
+    position: relative;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.951);
+}
+
+.flowershop{
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: center;
+    color: antiquewhite;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+aside {
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 20%;
+    background-color: green;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 20px;
+    border-style:none;
+    text-align: center;
+}
+
+aside:hover {
+    background-color: rgba(87, 128, 87, 0.662);
+}
+
+footer {
+    background-color: rgba(111, 183, 88, 0.66);
+}
+
+.grid-container {
+    position: relative;
+    padding: 3%;
+    display: grid;
+    grid-template-areas: "flower payment"
+                        "phone truck";
+    align-items: center;
+    justify-content: center;
+    text-align
+}
+
+.details {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    vertical-align: center;
+}
+
+.description {
+    float: right;
+    text-align: center;
+    width: 170px;
+    height: 10px;
+}
+
+@media screen and (max-width:600px){
+
+} 
+
