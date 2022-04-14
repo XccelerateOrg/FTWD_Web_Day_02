@@ -2,3 +2,26 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+section > div {
+    height: 200px;
+    width: 200px;
+}
+
+.A{
+    background-color: blue;
+}
+
+.B{
+    background-color: red;
+    margin-top: 200px;
+}
+
+.C{
+    background-color: green;
+
+}
