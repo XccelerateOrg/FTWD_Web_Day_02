@@ -71,4 +71,5 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here!)
+Be patient, no issues cannot be solved, just keep calm and carry on.
+Draw on the paper, outline a big picture of what sort of code to be used first before starting to code
