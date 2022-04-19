@@ -1,0 +1,24 @@
+/* 
+This css sheet is linked to index.html
+You can style tags, classes (.) or ids (#) from this file.
+*/
+div {
+    height: 60px;
+    width: 60px;
+  }
+  /* The float property specifies how an element should float. */
+  .blue {
+    background-color: blue;
+    float: left;
+  }
+  
+  .green {
+    background-color: green;
+    float: right;
+  }
+  
+  .red {
+    background-color: red;
+    clear: both;
+    margin: 0 auto;
+  }
