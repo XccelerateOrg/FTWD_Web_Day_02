@@ -1,4 +1,28 @@
-/* 
-This css sheet is linked to index.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+
+.flex-box {
+    height: 400px; /*increased height to move red-box vertically*/
+    display: flex;
+    justify-content: space-between; /*put the three divs in betweem*/
+    align-items: center;
+}
+
+.blue-box{
+    background-color: blue;
+    height: 100px;
+    width: 100px; 
+    align-self: flex-start;
+}
+
+.green-box {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    align-self: normal; 
+}
+
+.red-box {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    align-self:center;
+}

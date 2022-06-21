@@ -1,4 +1,27 @@
-/* 
-This css sheet is linked to index.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+div {
+    float: left;
+    padding: 15px; 
+    height: 100px;
+    width: 100px;
+
+  }
+
+.blue-box{
+    background-color: blue;
+    float: left;
+    
+}
+.green-box {
+    background-color: green;
+
+    float: right;
+}
+
+.red-box {
+    background-color: red;
+    clear: both;
+    margin-left: 50%; /* to set red-box at the middle*/
+
+}
+
+
