@@ -1,4 +1,62 @@
-/* 
-This css sheet is linked to practice.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+.container {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.logo {
+  position: relative;
+  background-color: white;
+  margin-left: 20px;
+}
+.background-photo {
+  filter: brightness(30%);
+}
+.title {
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+.btn-learn {
+  position: absolute;
+  left: 50%;
+  top: 450px;
+  padding: 5px;
+  background-color: chartreuse;
+  color: white;
+  border-radius: 15px;
+  border-style: none;
+}
+.green-bg {
+  width: 100%;
+  height: 300px;
+  background-color: darkseagreen;
+}
+.icon {
+  width: 50px;
+  float: left;
+}
+.info {
+  position: absolute;
+  width: 180px;
+  height: 60px;
+  text-align: center;
+}
+.flower {
+  left: 20%;
+  bottom: -100px;
+}
+.payment{
+    right: 20%;
+    bottom: -100px;
+}
+.call{
+    left: 20%;
+    bottom: -200px;
+}
+.delivery{
+    right: 20%;
+    bottom: -200px;
+}
