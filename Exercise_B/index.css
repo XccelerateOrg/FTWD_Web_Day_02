@@ -2,7 +2,18 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
-.sqr1{
+body{
+    /* text-align: center; */
+}
+.Box{
+    /* position: relative; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* display: inline-block;   */
+    /* display: block; */
+    /* text-align: center; */
+}
+.blue{
     background-color: blue;
     height: 50px;
     width: 50px;
@@ -10,7 +21,7 @@ You can style tags, classes (.) or ids (#) from this file.
 
 }
 
-.sqr3{
+.green{
     background-color: green;
     height: 50px;
     width: 50px;
@@ -18,18 +29,14 @@ You can style tags, classes (.) or ids (#) from this file.
     
 }
 
-.sqr2{
+.red{
     background-color: red;
     height: 50px;
     width: 50px;
-    /* float: right; */
-    /* float: none; */
-    /* align-items: center; */
-    /* margin: 50px; */
-    /* position: fixed; */
-    clear:both;
-    /* align-items: center; */
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
