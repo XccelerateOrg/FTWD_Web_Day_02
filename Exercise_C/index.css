@@ -1,4 +1,30 @@
-/* 
+
+    /* 
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+.flexContainer{
+    display:flex;
+    justify-content:space-between;
+}
+.flex1{
+    height: 150px;
+    width: 150px;
+    background: blue;
+}
+
+.flex2{
+    height: 150px;
+    width: 150px;
+    background: red;
+    position: relative;
+    top: 150px;
+}
+
+.flex3{
+    height: 150px;
+    width: 150px;
+    background: green; 
+   
+}
