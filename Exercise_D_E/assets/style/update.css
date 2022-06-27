@@ -1,0 +1,72 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.header {
+  height: 70px;
+  background-color: white;
+}
+
+.flower-pic {
+  position: relative;
+  width: 100%;
+  background-color: rgba(68, 255, 47, 0.613);
+}
+
+.flower-img {
+  width: 100%;
+}
+
+.centered {
+  position: absolute;
+  font-size: 50px;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flower-text {
+  text-align: center;
+}
+
+.learn-button {
+  font-size: 25px;
+  color: white;
+  border-radius: 25px;
+  background: #73ad21;
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-features1 {
+  /* height: 250px; */
+  width: 100%;
+  background-color: rgba(68, 255, 47, 0.613);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+
+.icon {
+  margin: 3rem 0;
+  width: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 800px) {
+    .icon {
+      width: 50%;
+    }
+}
+
