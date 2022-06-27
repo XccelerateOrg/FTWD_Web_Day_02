@@ -1,4 +1,28 @@
-/* 
-This css sheet is linked to index.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+.outerbox {
+    height: 200px; 
+}
+
+.box1 {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    float: right;
+    
+}
+
+.box2 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    float: left;
+}
+
+.box3 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}

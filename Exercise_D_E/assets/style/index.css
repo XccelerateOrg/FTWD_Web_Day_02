@@ -1,4 +1,77 @@
-/* 
-This css sheet is linked to practice.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+.header {
+  height: 70px;
+  background-color: white;
+}
+
+.flower-pic {
+  height: 720px;
+  background-color: white;
+}
+
+.centered {
+  position: absolute;
+  font-size: 50px;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+}
+
+.learn-button {
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  background: #73ad21;
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-features1 {
+  height: 250px;
+  width: 1280px;
+  background-color: rgba(68, 255, 47, 0.613);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.flower-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.shop-features2 {
+  height: 250px;
+  width: 1280px;
+  background-color: rgba(68, 255, 47, 0.613);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.phone-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.truck-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
