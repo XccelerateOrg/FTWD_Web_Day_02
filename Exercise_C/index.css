@@ -2,3 +2,56 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+.flex_container-1{
+    /* text-align: center; */
+    display: flex;
+    /* display: flexbox; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    justify-content: space-between
+}
+.flex_container-2{
+    /* text-align: center; */
+    display: flex;
+    /* display: flexbox; */
+    /* flex-direction: column; */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.blue{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    /* float: left; */
+    /* flex: ; */
+    /* flex: 50%; */
+    /* justify-self: flex-start; */
+
+}
+
+.green{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    /* float: right; */
+    /* flex: 50%; */
+    /* justify-self: flex-end; */
+}
+
+.red{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    /* clear: both; */
+    /* display: block; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+
+
+}

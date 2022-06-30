@@ -2,3 +2,41 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+body{
+    /* text-align: center; */
+}
+.Box{
+    /* position: relative; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* display: inline-block;   */
+    /* display: block; */
+    /* text-align: center; */
+}
+.blue{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    float: left;
+
+}
+
+.green{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    float: right;
+    
+}
+
+.red{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}

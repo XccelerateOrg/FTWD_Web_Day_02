@@ -2,3 +2,111 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+body{
+    /* background-image: ('.\assets\images\flowershop.jpg'); */
+    /* background-color:lightgreen; */
+    /* display: flex; */
+}
+.body2{
+    background-color:lightgreen;
+}
+.header{
+    background-color: white;
+    /* height: 50px; */
+    /* width: auto; */
+}
+
+.middle{
+    /* background-image: ('.\assets\images\flowershop.jpg'); */
+    /* position: absolute; */
+    /* height: 3000px; */
+    /* position:absolute; */
+    position: relative;
+    text-align: center;
+    /* top:50px; */
+    /* left:50px; */
+
+}
+#flowershop{
+    /* opacity: 0.5; */
+    filter: brightness(50%);
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+  }
+.button{
+    /* display: block; */
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 20px;
+    border-radius: 30px;
+}
+.icons{
+    
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: auto auto;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
+    
+    /* align-content: center; */
+    /* text-align: center; */
+    /* margin: auto; */
+    /* align-items: center; */
+
+    
+}
+.bigblock{
+    display: flex;
+    flex-direction: row;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+.text{
+    /* background-color: lightgrey; */
+    padding-left: 30px;
+    text-align: center;
+    /* border: 3px solid green; */
+    line-height: 128px;
+    height: 128px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    /* vertical-align: text-bottom; */
+
+}
+
+.text p{
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 600px) {
+    .body2{
+        background-color: lightblue;
+    }
+    .icons{
+    
+        /* display: flex; */
+        display: grid;
+        grid-template-columns: auto;}
+        /* kk */
+  }
