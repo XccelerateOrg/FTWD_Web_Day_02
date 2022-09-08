@@ -2,3 +2,36 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    width: 200px;
+    aspect-ratio: 1;
+}
+
+.one {
+    background: lightsalmon;
+    float: right;
+}
+
+.two {
+    background: lightgreen;
+    z-index: 2;
+}
+
+.three {
+    background: lightskyblue;
+}
+
+.second-row {
+    display: flex;
+    justify-content: center;
+}

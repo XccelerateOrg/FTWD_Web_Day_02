@@ -1,0 +1,99 @@
+/* 
+This css sheet is linked to practice.html
+You can style tags, classes (.) or ids (#) from this file.
+*/
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+/* utility classes */
+.container {
+    padding: 15rem 0 12rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+}
+
+/* body */
+.main-body {
+    height: 100vh;
+    background-color: rgb(176, 202, 137);
+}
+
+/* navbar */
+.primary-navbar {
+    width: 100vw;
+    background-color: white;
+    padding-inline: 2rem;
+    position: fixed;
+}
+
+/* section 1 */
+.main-container {
+    place-items: center;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.5)), url('./assets/images/flowershop.jpg');
+}
+
+.main-title {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.learn-more-btn {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    padding: .5rem 1.5rem;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(57, 183, 57);
+}
+
+.learn-more-btn:hover {
+    cursor: pointer;
+}
+
+/* section 2 services*/
+@media only screen and (min-width: 55em) {
+    .service-container {
+        grid-template-columns: repeat(2, minmax(0, 20rem));
+    }
+}
+
+@media only screen and (max-width: 54.999em) {
+    .service-container {
+        padding: 3rem;
+    }
+}
+
+.service-container {
+    justify-content: center;
+    text-align: start;
+    height: 35vh;
+    background-color: rgb(176, 202, 137);
+}
+
+.service-block {
+    align-items: center;
+}
+
+.icons {
+    width: 2.5rem;
+    margin-inline-end: 1rem;
+}

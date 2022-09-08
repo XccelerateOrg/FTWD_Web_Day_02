@@ -71,4 +71,5 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here!)
+- You can edit background images by adding a color and the image to "background"
+  (Fill whatever you would like here!)
