@@ -1,4 +1,62 @@
-/* 
-This css sheet is linked to practice.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/flowershop.jpg);
+  background-repeat: repeat;
+  padding: 20%;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 45px;
+}
+
+button {
+  padding: 15px 20px;
+  margin-top: 10px;
+  color: white;
+  font-size: 25px;
+  background-color: rgb(154, 216, 60);
+  border-color: transparent;
+  text-align: center;
+  border-radius: 20%;
+  cursor: pointer;
+  box-shadow: 2px 2px black;
+}
+
+button:active {
+    box-shadow: 1px 1px black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  padding: 100px;
+  background-color: rgb(169, 196, 146);
+}
+
+.grid-element {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  font-weight: 300;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+span {
+  margin: 25px;
+}
