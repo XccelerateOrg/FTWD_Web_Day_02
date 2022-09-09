@@ -1,4 +1,22 @@
-/* 
-This css sheet is linked to index.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+.box1 {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  float: left;
+}
+
+.box2 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  float: left;
+  margin-left: 37%;
+  margin-top: 25%;
+}
+
+.box3 {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  float: right;
+}
