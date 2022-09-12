@@ -1,4 +1,44 @@
-/* 
-This css sheet is linked to practice.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*.logo {
+    height: 20px;
+    width: 10px;
+    background-color: white;
+    color: gray;*/
+}
+.flowershop {
+width: 100px;
+max-width: 100px;
+}
+.flowershop img{
+    width: 500px;
+    height: 600px;
+}
+.flowershop .button {
+    background-color: rgb(37, 206, 37);
+    color: white;
+    border: none;
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 0px 0px;
+    font-family:;
+}
+.centered {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: white;
+    font-size: 30px;
+}
+.logos {
+    background-color: rgb(190, 226, 190);
+}
