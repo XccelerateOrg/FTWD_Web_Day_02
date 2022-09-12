@@ -2,3 +2,104 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+html{
+  background-color: rgb(211, 230, 185);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: left;
+  border-bottom: 5px solid grey;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-container  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  /* background-image:url(/Exercise_D_E/assets/images/flowershop.jpg); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+  url(/Exercise_D_E/assets/images/flowershop.jpg);
+
+  background-size: cover;
+  background-position: center;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.content-child1{
+  font-size: 50px;
+  text-align: center;
+}
+
+.learn-more-button{
+  margin-top: 40px; 
+  border: 0px;
+  font-size: 35px;
+  background-color: red;
+  color: white;
+  height: 60px;
+  width: 200px;
+  border-radius:200px;
+}
+
+@media screen and (min-width:500px) {
+  .learn-more-button{
+    margin-top: 40px; 
+    border: 0px;
+    font-size: 35px;
+    background-color: rgb(147, 208, 72);
+    color: white;
+    height: 60px;
+    width: 200px;
+    border-radius:200px;
+  }
+}
+
+
+
+.learn-more-button:hover{
+  background-color: rgb(147, 208, 72,0.5);
+}
+
+.learn-more-button:active{
+  background-color: green;
+}
+
+
+.flex-container {
+ height: auto;
+ display: flex;
+ /* border: 5px solid blue;  */
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ background-color: rgb(211, 230, 185);
+ font-size: 20px;
+
+}
+
+.box  {
+  padding: 50px;
+display: inline-block;
+flex-basis: 300px;
+}
+
+.box td{
+  text-align: center;
+}
+
+.flex-container img {
+  height: 70px;
+}
+.cwidth{
+  width: 250px;
+}

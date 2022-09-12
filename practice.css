@@ -2,3 +2,33 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+img {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.list-container   {
+    text-align: center;
+}
+.list   {
+    display: inline-block;
+}
+
+.frog-flex-container{
+ display: flex;
+ justify-content: center;
+ align-items: center;   
+ flex-direction: row;
+ padding: 75px;
+ border: dotted 5px red;
+
+}
+.frog:nth-child(1){
+align-items: flex-start;
+}
+
+#title{
+    font-size: 50px;
+    text-align: center;
+}
