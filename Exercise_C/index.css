@@ -1,4 +1,25 @@
-/* 
-This css sheet is linked to index.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+.Flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box {
+height: 100px;
+width: 100px;
+background-color:blue ;
+border: 1px solid black;
+}
+.boxx {
+    height: 100px;
+    width: 100px;
+    background-color:red ;
+    border: 1px solid black;
+    position: relative;
+    top: 110px;
+}
+.boxxx {
+    height: 100px;
+    width: 100px;
+    background-color:green ;
+    border: 1px solid black;
+}
