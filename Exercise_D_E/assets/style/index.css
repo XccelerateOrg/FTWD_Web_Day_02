@@ -1,4 +1,104 @@
-/* 
-This css sheet is linked to practice.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+}
+
+
+.center-button {
+    display: flex;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    margin: auto;
+    margin-left: 48%;
+    margin-top: -24%;
+    text-align: center;
+}
+
+.buttonText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-text {
+    position: absolute;
+    margin-top: -300
+  
+    /* z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; */
+
+}
+
+.textposition {
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: 43%;
+
+    font-size: 30px;
+}
+
+.background {
+    opacity: 0.3;
+    width: 100%;
+    height: auto;
+}
+
+.button {
+    border-radius: 20px;
+    background-color: rgb(188, 230, 124);
+    height: 25px;
+    width: 83px;
+    text-align: center;
+}
+
+.background {
+    width: 100%;
+    height: auto;
+
+}
+
+.container1 {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    background-color: rgb(197, 251, 153);
+}
+
+.container2 {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(197, 251, 153);
+    flex-grow: 1;
+
+}
+
+.icon {
+    width: 10vh;
+    height: 10vh;
+    margin-left: 5vh;
+    margin-top: 5vh
+}
