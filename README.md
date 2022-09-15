@@ -72,3 +72,7 @@ Method Two:
 ## What is one thing that I learned from doing this project? :books:
 
 (Fill whatever you would like here!)
+
+The Difference between floatbox and flexbox
+Also little bit more about CSS positioning
+and how to use git and github
