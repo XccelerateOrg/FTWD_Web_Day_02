@@ -72,3 +72,7 @@ Method Two:
 ## What is one thing that I learned from doing this project? :books:
 
 (Fill whatever you would like here!)
+
+Learnt that flex-wrap together with flex-basis allows object to move into a new line when the total width of objects in a line exceeded a certain maximum, so the object does not have to be shrunk;
+
+Inline-size and overflow-wrap to break text into new line.
