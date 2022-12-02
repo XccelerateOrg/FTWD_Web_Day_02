@@ -1,21 +1,7 @@
-/* 
-This css sheet is linked to index.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-
-  .box{
-display:flex;
-justify-content: space-between;
-height:250px;
-background-color:white;
-
   }
 
   .blue {
