@@ -2,3 +2,92 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+    margin:0;
+    padding: 0;
+    border: 0;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+}
+
+.nav{
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.logo{
+    width: 50px;
+
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/flowershop.jpg);
+    background-repeat: unset;
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 60pt;
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    h1 {
+      font-size: 40pt;
+    }
+  }
+
+.btnLearnMore{
+    position:absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #31d300;
+    color: white;
+    font-size: 16px;
+    padding: 12px 28px;
+    border: 0px;
+    border-radius: 20px;
+    margin: 30px auto;
+}
+
+.btnLearnMore:hover{
+    background-color: #319b11;
+}
+
+.feature{
+    background-color: #c8e9af;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.featurePoint{
+    display: inline-flex;
+    align-items: center;
+    width: 300px;
+    margin: 50px;
+}
+
+.featureImg{
+    margin-right: 30px;
+}
+.featureImg > img{
+    width: 90px;
+}
+
+.featureText{
+    font-size: 16pt;
+}
