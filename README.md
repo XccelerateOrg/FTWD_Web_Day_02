@@ -53,6 +53,7 @@ Method Two:
   ![flowerShop](assets/flowerShop.png)
 
 - [ ] Finish the 'What is one thing that I learned from doing this project?' in the readme
+
 - Bonus
 
 - [ ] Exercise E: Flowerbox VII: Add @media queries such that your page is styled appropriately for mobiles, change your CSS file.
@@ -71,4 +72,4 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here!)
+(I learned the difference between float and flex, and a bit more on how to use flex. The relevant flex terms and usage aren't immediately sinking in yet, but I think I'm starting to get the hang of it.)
