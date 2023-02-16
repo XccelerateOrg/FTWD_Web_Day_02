@@ -71,4 +71,6 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
+- I got to use my knowledge in HTML and CSS in this assignment. Had fun working on it.
+
 (Fill whatever you would like here!)
