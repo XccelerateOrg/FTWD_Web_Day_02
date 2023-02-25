@@ -2,3 +2,72 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+.hero {
+    background-image: url("../images/flowershop.jpg");
+    background-color:grey;
+    color:white;
+    font-family: system-ui;
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-top: 12.5rem; /* 200px */
+    padding-bottom: 12.5rem; /* 200px */
+    /* background-repeat: no-repeat; */
+}
+
+.text_1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.simple_button {
+    color:white;
+    background-color:rgb(121, 252, 119); 
+    border-color:rgb(121, 252, 119);
+    font-family: system-ui;
+    text-align: center;
+    font-size: 1.563rem; /* 25px */
+    border-radius: 1.25rem; /* 20px */
+    padding: 0.313rem; /* 5px */
+    position: relative;
+    left: 40.5%;
+}
+
+.grid-even-columns {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color:#C3F5D3;
+    padding: 3.125rem 3.125rem; /* 50px 50px */
+}
+
+.flower-icon {
+    width: 4.375rem; /* 70px */
+    height: 4.375rem; /* 70px */
+    padding: 0.938rem; /* 15px */
+    margin: 0.188rem; /* 3px */
+    float: left;
+}
+
+.phone-icon {
+    width: 4.375rem; /* 70px */
+    height: 4.375rem; /* 70px */
+    padding: 0.938rem; /* 15px */
+    margin: 0.188rem; /* 3px */
+    float: left;
+}
+
+.payment-icon {
+    width: 4.375rem; /* 70px */
+    height: 4.375rem; /* 70px */
+    padding: 0.938rem; /* 15px */
+    margin: 0.188rem; /* 3px */
+    float: left;
+}
+
+.truck-icon {
+    width: 4.375rem; /* 70px */
+    height: 4.375rem; /* 70px */
+    padding: 0.938rem; /* 15px */
+    margin: 0.188rem; /* 3px */
+    float: left;
+}
