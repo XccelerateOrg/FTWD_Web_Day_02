@@ -2,3 +2,67 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+:root {
+    --clr-dark: #0f172a;
+    --clr-light: #f1f5f9;
+    --clr-accent: #e11d48;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--clr-dark);
+    background-color: var(--clr-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    height: 320px;
+    margin: 0 auto;
+    border: 0px solid var(--clr-dark); 
+}
+
+.item {
+    width: 150px;
+    height: 150px;
+    background-color: none;
+    padding: 1em;
+    font-weight: 700;
+    color: var(--clr-light);
+    text-align: center;
+}
+
+/* END OF BASE STLES */
+
+.container {
+    display: flex;
+    /* flex-direction: row; */ 
+    justify-content: space-between;
+}
+
+.item-1 {
+    background-color: blue;
+}
+
+.item-2 {
+    background-color: red;
+    margin-top: 150px;
+}
+
+.item-3 {
+    background-color: green;
+}
