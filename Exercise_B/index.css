@@ -1,4 +1,30 @@
-/* 
+/*
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+.container {
+  height: 16rem;
+  margin-top: 5rem;
+  padding: 1rem;
+}
+
+.box {
+  width: 8rem;
+  height: 8rem;
+}
+
+.blue {
+  background-color: blue;
+  float: left;
+}
+
+.green {
+  background-color: green;
+  float: right;
+}
+
+.red {
+  background-color: red;
+  clear: both;
+  margin: 0 auto;
+}

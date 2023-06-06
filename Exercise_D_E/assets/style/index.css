@@ -1,4 +1,102 @@
-/* 
+/*
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-section {
+  min-width: 100%;
+  height: 100vh;
+}
+
+.header>img {
+  width: max-content;
+}
+
+.image {
+  height: 50%;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn {
+  background-color: rgb(140, 224, 15);
+  color: white;
+  font-weight: 700;
+  font-size: large;
+  padding: 5px;
+  letter-spacing: 1px;
+  border-radius: 35px;
+  border: none;
+  cursor: pointer;
+}
+
+.image::before {
+  content: "";
+  position: absolute;
+  background-image: url(/Exercise_D_E/assets/images/flowershop.jpg);
+  background-size: auto 100%;
+  filter: brightness(50%);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.image>* {
+  position: relative;
+}
+
+h2 {
+  margin: 1rem;
+  font-size: xx-large;
+}
+
+.services {
+  background-color: rgb(216, 239, 180);
+  color: lightslategray;
+  padding: 2rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.service-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-item>div {
+  width: 9rem;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.service-item>img {
+  width: 3rem;
+}
+
+@media only screen and (max-width: 375px) {
+  .header {
+    text-align: center;
+  }
+
+  .services {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+    padding: 3rem 2.5rem;
+  }
+}
