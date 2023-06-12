@@ -2,3 +2,79 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+
+body {
+    font-family: Tahoma;
+}
+
+.banner {
+    background-image: url('../images/flowershop.jpg');
+    background-size: cover;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(50%);
+}
+
+
+.headline {
+    z-index:1;
+    filter: brightness(100%) !important;
+}
+
+.learn-more {
+    border-radius: 2rem;
+    background-color: lightgreen;
+    padding: 0.5rem;
+}
+
+.offerings {
+    background-color: rgb(153, 255, 153);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 38%;
+    margin: 3% 1%;
+    padding: 1%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.service p{
+    margin: 2rem;
+    padding: 1rem;
+    
+}
+
+/* @media only screen and (max-width: 385px) {
+    .service {
+        width: 100%;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 386px) {
+    .service {
+        width: 38%;
+        margin: 3% 1%;
+        padding: 1%;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+    }
+}  */
