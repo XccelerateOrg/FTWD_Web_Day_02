@@ -39,7 +39,7 @@ body {
     flex-wrap: wrap;
 }
 
-/* .service {
+.service {
     width: 38%;
     margin: 3% 1%;
     padding: 1%;
@@ -47,8 +47,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
-} */
+}
 
 .service p{
     margin: 2rem;
@@ -56,26 +55,14 @@ body {
     
 }
 
-@media only screen and (max-width: 385px) {
+@media screen and (max-width: 620px) {
+
     .service {
         width: 100%;
         border: none;
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-}
-
-@media only screen and (min-width: 386px) {
-    .service {
-        width: 38%;
-        margin: 3% 1%;
-        padding: 1%;
-        border: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid red;
     }
 }
 
