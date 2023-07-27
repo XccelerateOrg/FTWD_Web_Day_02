@@ -71,4 +71,4 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here!)
+- I learned the proccess of overlay a background image correctly and structure classes so I can properly style each box. And media queries for mobile.
