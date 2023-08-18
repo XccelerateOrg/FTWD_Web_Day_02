@@ -1,0 +1,35 @@
+/* 
+This css sheet is linked to index.html
+You can style tags, classes (.) or ids (#) from this file.
+*/
+.blue{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+.green{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}
+
+.blue-green-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.red{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    align-self: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
