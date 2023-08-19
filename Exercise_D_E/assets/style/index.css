@@ -1,4 +1,83 @@
-/* 
-This css sheet is linked to practice.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+nav {
+	background-color: white;
+	width: max-content;
+}
+
+main {
+	min-width: 100vw;
+	min-height: 100vh;
+}
+
+.backgroundimage {
+	filter: brightness(50%);
+	min-width: 100vw;
+	position: absolute;
+	z-index: -1;
+}
+
+.center {
+	padding-top: 25%;
+
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 3rem;
+}
+
+button {
+	background-color: #7ed221;
+	border: solid transparent;
+	padding: 12px;
+
+	border-radius: 100px;
+	color: white;
+	font-size: 2rem;
+}
+
+.services {
+	background-color: #cee7b4;
+	min-height: max-content;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	min-width: 100vh;
+	display: grid;
+	font-weight: 600;
+	font-size: large;
+	row-gap: 5rem;
+	align-items: center;
+	padding-left: 5rem;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.service {
+	display: flex;
+	justify-self: start;
+}
+
+.text {
+	align-self: center;
+	font-family: sans-serif;
+	max-width: 40%;
+	padding-left: 2rem;
+}
+
+.icon {
+	scale: 70%;
+}
+
+@media (max-width: 639px) {
+	.services {
+		row-gap: 1rem;
+		padding-left: 1rem;
+		display: block;
+	}
+}

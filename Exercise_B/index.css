@@ -1,4 +1,22 @@
-/* 
-This css sheet is linked to index.html
-You can style tags, classes (.) or ids (#) from this file.
-*/
+.blue {
+	background-color: blue;
+	height: 10rem;
+	width: 10rem;
+	float: left;
+}
+
+.orange {
+	background-color: orange;
+	height: 10rem;
+	width: 10rem;
+
+	clear: both;
+	margin-left: 50%;
+}
+
+.green {
+	background-color: green;
+	height: 10rem;
+	width: 10rem;
+	float: right;
+}
