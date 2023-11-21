@@ -11,7 +11,7 @@ The exercise repos come with come boilerplate code, if you're confident and do n
 ### Directions :flashlight:
 
 - Go to the LMS and follow the exercises:
-  [Day 2](https://xccelerate.talentlms.com/unit/view/id:2572)
+  [Day 2](https://short-courses.xccelerate.co/courses/take/ftseu1-full-stack-web-development-immersive-unit-1-web-development-fundamentals/texts/40342691-html)
 
 ### How it works :open_book:
 
