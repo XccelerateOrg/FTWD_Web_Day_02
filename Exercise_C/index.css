@@ -2,3 +2,31 @@
 This css sheet is linked to index.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+.bigBox {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    align-self: flex-start;
+}
+.red {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    align-self:last baseline
+}
+
+.green {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    align-self: flex-end;
+    align-self: first baseline;
+}

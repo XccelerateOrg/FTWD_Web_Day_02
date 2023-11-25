@@ -7,13 +7,14 @@ You can style tags, classes (.) or ids (#) from this file.
     height: 200px;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .blue {
     background-color: blue;
     height: 100px;
     width: 100px;
-    align-self: flex-start;
+    float: left;
 }
 .red {
     background-color: red;
@@ -27,6 +28,5 @@ You can style tags, classes (.) or ids (#) from this file.
     background-color: green;
     height: 100px;
     width: 100px;
-    align-self: flex-end;
-    align-self: first baseline;
+    float: right;
 }
