@@ -71,4 +71,4 @@ Method Two:
 
 ## What is one thing that I learned from doing this project? :books:
 
-(Fill whatever you would like here!)
+(The one thing I learnt doing this project is that there are many ways in positioning boxes to produce the same outcome.)
