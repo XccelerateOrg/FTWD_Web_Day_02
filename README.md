@@ -72,3 +72,4 @@ Method Two:
 ## What is one thing that I learned from doing this project? :books:
 
 (Fill whatever you would like here!)
+I learnt a lot about CSS especially about Flex and Grid. I also got the hang of how to layout elements according to what I want and learnt a bit about Media Queries to make my website responsive.

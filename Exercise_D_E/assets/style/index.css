@@ -2,3 +2,184 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+*{
+    box-sizing: border-box;
+}
+
+
+
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    padding: 0;
+}
+
+
+
+
+
+header{
+    background: white;
+    height: 20%;
+    padding: 10px 0 0 20px;
+}
+
+.midImage{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url("/Exercise_D_E/assets/images/flowershop.jpg") ;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    height: 45em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5em;
+}
+
+h1.beautFlowers {
+    color: white;
+    opacity: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 60px;
+    padding-top: 40px;
+}
+
+.buttonLearn{
+    background-color: rgb(126, 211, 33);
+    border-radius: 40px;
+    width: 6em;
+    height: 2em;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.gridContainer{
+    display: grid;
+    background-color: rgb(206, 231, 180);
+    grid-template-columns: 10% 12% 20% 5% 12% 20%;
+    grid-template-rows: 5em 10em 5em 10em;
+    grid-template-areas: 
+    'a a a a a a'
+    'b icon1 word1 c icon2 word2'
+    'd d d d d d'
+    'e icon3 word3 f icon4 word4';
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.icon1{
+    grid-area: icon1;
+}
+
+.icon2{
+    grid-area: icon2;
+}
+
+.icon3{
+    grid-area: icon3;
+}
+
+.icon4{
+    grid-area: icon4;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    opacity: 70%;
+}
+
+.word1{
+    grid-area: word1;
+}
+
+.word2{
+    grid-area: word2;
+}
+
+.word3{
+    grid-area: word3;
+}
+
+.word4{
+    grid-area: word4;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        max-width: 600px;
+    }
+
+    .gridContainer{
+        grid-template-columns: 1fr;
+        padding-top: 10px;
+        grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            'icon1'
+            'word1'
+            'icon2'
+            'word2'
+            'icon3'
+            'word3'
+            'icon4' 
+            'word4';  
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .container{
+        min-width: 600px;
+    }
+
+    .gridContainer{
+        grid-template-columns: 20em 15em;
+        padding-top: 10px;
+        grid-template-rows:  1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            'icon1 word1'
+            'icon2 word2'
+            'icon3 word3'
+            'icon4 word4';  
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container{
+        min-width: 768px;
+    }
+
+    .gridContainer{
+        grid-template-columns: 10% 12% 20% 5% 12% 20%;
+        grid-template-rows: 5em 10em 5em 10em;
+        grid-template-areas: 
+        'a a a a a a'
+        'b icon1 word1 c icon2 word2'
+        'd d d d d d'
+        'e icon3 word3 f icon4 word4'; 
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container{
+        min-width: 992px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container{
+        min-width: 1200px;
+    }
+}
+
+
